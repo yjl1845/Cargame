@@ -6,11 +6,19 @@ using UnityEngine;
 
 public class Stego : MonoBehaviour
 {
+    Animator anim;
+    Rigidbody rigid;
 
     public Vector3 direction;
     public float speed = 1.0f;
     public float rotateSpeed = 0.1f;
 
+
+    private void Awake()
+    {
+        rigid = GetComponent<Rigidbody>();
+        anim = GetComponentInChildren<Animator>();
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -58,9 +66,12 @@ public class Stego : MonoBehaviour
         // v = v0 + vt
         // Time.deltatime : 전 프레임이 완료되기까지 걸린 시간
 
-        direction.Normalize();
+        // direction.Normalize();
+        // transform.Translate(direction * speed * Time.deltaTime);
 
-        transform.Translate(direction * speed * Time.deltaTime);
+        direction = new Vector3(direction.x, 0, direction.z).normalized;
+        transform.position += direction * speed * Time.deltaTime;
+        anim.SetBool("Is Walk", direction != Vector3.zero);
 
         if (!(direction.x == 0 && direction.y == 0))
         {
@@ -69,7 +80,14 @@ public class Stego : MonoBehaviour
             // 회전하는 부분. Point 1.
             transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(dir), Time.deltaTime * rotateSpeed);
 
-            #endregion
         }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            anim.SetTrigger("Attack");
+            Debug.Log("스테고 공격");
+        }
+
+        #endregion
     }
 }

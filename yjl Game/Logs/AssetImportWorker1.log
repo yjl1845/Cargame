@@ -15,7 +15,7 @@ D:/C언어 및 유니티 강의 영상/Cargame/yjl Game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61367
+50693
 Successfully changed project path to: D:/C언어 및 유니티 강의 영상/Cargame/yjl Game
 D:/C언어 및 유니티 강의 영상/Cargame/yjl Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ D:/C언어 및 유니티 강의 영상/Cargame/yjl Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4560] Host "[IP] 192.168.10.100 [Port] 0 [Flags] 2 [Guid] 2890585561 [EditorId] 2890585561 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-T0A94SF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [34540] Host "[IP] 192.168.10.100 [Port] 0 [Flags] 2 [Guid] 831322917 [EditorId] 831322917 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-T0A94SF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4560] Host "[IP] 192.168.10.100 [Port] 0 [Flags] 2 [Guid] 2890585561 [EditorId] 2890585561 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-T0A94SF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [34540] Host "[IP] 192.168.10.100 [Port] 0 [Flags] 2 [Guid] 831322917 [EditorId] 831322917 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-T0A94SF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 102.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 105.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -68,90 +68,90 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.021317 seconds.
+Registered in 0.018632 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 102.14 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 104.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.001 seconds
+- Completed reload, in  1.079 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1002ms)
-		BeginReloadAssembly (190ms)
+	ReloadAssembly (1080ms)
+		BeginReloadAssembly (216ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (627ms)
-			LoadAssemblies (184ms)
+		EndReloadAssembly (698ms)
+			LoadAssemblies (208ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (160ms)
+			SetupTypeCache (169ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (359ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (413ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (102ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (164ms)
-				ProcessInitializeOnLoadMethodAttributes (76ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (110ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011285 seconds.
+Registered in 0.011020 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  2.138 seconds
+- Completed reload, in  2.121 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2139ms)
-		BeginReloadAssembly (239ms)
+	ReloadAssembly (2122ms)
+		BeginReloadAssembly (268ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1605ms)
-			LoadAssemblies (202ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1675ms)
+			LoadAssemblies (211ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (436ms)
+			SetupTypeCache (431ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (915ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (987ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (113ms)
-				ProcessInitializeOnLoadAttributes (731ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (798ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (26ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3167 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (333.9 KB). Loaded Objects now: 3644.
-Memory consumption went from 133.2 MB to 132.8 MB.
-Total: 2.841800 ms (FindLiveObjects: 0.250400 ms CreateObjectMapping: 0.200400 ms MarkObjects: 2.250000 ms  DeleteObjects: 0.139800 ms)
+Unloading 26 unused Assets / (334.1 KB). Loaded Objects now: 3656.
+Memory consumption went from 141.9 MB to 141.6 MB.
+Total: 3.801600 ms (FindLiveObjects: 0.278100 ms CreateObjectMapping: 0.248500 ms MarkObjects: 3.111000 ms  DeleteObjects: 0.162500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,38 +168,53 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 84864.417975 seconds.
-  path: Assets/Translate/FerociousIndustries
-  artifactKey: Guid(251749834ef1e1246b515eb6e2d87745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 169551.222668 seconds.
+  path: Assets/Translate/Scene/Script folder/Stego.cs
+  artifactKey: Guid(3bbf275b2f8be7c43bacfb7e110067ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Translate/FerociousIndustries using Guid(251749834ef1e1246b515eb6e2d87745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09683c08217345bfb5e7a12f0602eef') in 0.066776 seconds 
+Start importing Assets/Translate/Scene/Script folder/Stego.cs using Guid(3bbf275b2f8be7c43bacfb7e110067ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b91158a5c5ab29e4f6b466eb750a9a1') in 0.084023 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Translate
-  artifactKey: Guid(7e10ece25b01f85428eeb5f55c86430d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 241.121278 seconds.
+  path: Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Audio Clips/Bark1.wav
+  artifactKey: Guid(82e1adaaddec22243ac8c155fc1a1763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Translate using Guid(7e10ece25b01f85428eeb5f55c86430d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d2029ce383f04d10365c36473dcdd5') in 0.021846 seconds 
-Number of asset objects unloaded after import = 0
+Start importing Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Audio Clips/Bark1.wav using Guid(82e1adaaddec22243ac8c155fc1a1763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10ad0fcfe824baadf114fb580f81526') in 0.276020 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Translate/Scene
-  artifactKey: Guid(91fb49898d5c31b4c98c0b42af927051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000036 seconds.
+  path: Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Audio Clips/Death.wav
+  artifactKey: Guid(cac59288a20ae7a4795fb1a253a11411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Translate/Scene using Guid(91fb49898d5c31b4c98c0b42af927051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5017b24a3d3e5a3c29fb0d4d78846b') in 0.019660 seconds 
-Number of asset objects unloaded after import = 0
+Start importing Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Audio Clips/Death.wav using Guid(cac59288a20ae7a4795fb1a253a11411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae09a69b6dc6ce77c6c173f8ad1ea7b4') in 0.057381 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Translate/Scene/Script folder
-  artifactKey: Guid(7bd49717a24d3c3419efb3435840825f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000030 seconds.
+  path: Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Audio Clips/Yelp1.wav
+  artifactKey: Guid(1dea082d1d805104fb72180ca27c5e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Translate/Scene/Script folder using Guid(7bd49717a24d3c3419efb3435840825f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d43711ce41ae22fb14d3f3f141971f') in 0.021673 seconds 
-Number of asset objects unloaded after import = 0
+Start importing Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Audio Clips/Yelp1.wav using Guid(1dea082d1d805104fb72180ca27c5e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c01bad571e1c188d908c8e10b3260ad') in 0.065677 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Audio Clips/Yelp2.wav
+  artifactKey: Guid(bdd98502e7ad80e43a5f7b2b4a267622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Audio Clips/Yelp2.wav using Guid(bdd98502e7ad80e43a5f7b2b4a267622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ead4aa316c307e8282b550204b0d58') in 0.070472 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Audio Clips/Growl1.wav
+  artifactKey: Guid(d84268b4b4a946a4098e11d9d4e7c49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Audio Clips/Growl1.wav using Guid(d84268b4b4a946a4098e11d9d4e7c49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d192bf95506e79f17ab75024433de6') in 0.064224 seconds 
+Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
