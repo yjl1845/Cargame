@@ -400,6 +400,11 @@
 "Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Scripts/StegaSoundEffects.cs"
 "Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Scripts/RaptorSoundEffects.cs"
 "Assets/Translate/Scene/Script folder/Stego.cs"
+"Assets/UGUI/Script/Cube.cs"
+"Assets/UGUI/Script/RotateX.cs"
+"Assets/UGUI/Script/RotateY.cs"
+"Assets/UGUI/Script/RotateZ.cs"
+"Assets/UGUI/Script/UGUI.cs"
 -langversion:9.0
 
 /deterministic

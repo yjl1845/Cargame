@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Translate/Scene/translate.unity
+- path: Assets/UGUI/Scene/UGUI.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
