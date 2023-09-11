@@ -70,7 +70,7 @@ public class Stego : MonoBehaviour
         // transform.Translate(direction * speed * Time.deltaTime);
 
         direction = new Vector3(direction.x, 0, direction.z).normalized;
-        transform.position += direction * speed * Time.deltaTime;
+        transform.TransformDirection( direction * speed * Time.deltaTime);
         anim.SetBool("Is Walk", direction != Vector3.zero);
 
         if (!(direction.x == 0 && direction.y == 0))
