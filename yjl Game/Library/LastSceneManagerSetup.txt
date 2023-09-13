@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Animation Retargeting/Scene/AnimationRetargeting.unity
+- path: Assets/Physics/Scene/Physics.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

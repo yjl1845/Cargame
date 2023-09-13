@@ -351,6 +351,8 @@
 "Assets/Animation/Script/Parallax.cs"
 "Assets/Monster/Monster.cs"
 "Assets/Monster/MonsterManager.cs"
+"Assets/Physics/Script/BilliardBall.cs"
+"Assets/Physics/Script/PhysicsManager.cs"
 "Assets/Start/DreamForestTree/PostProcessing/Runtime/Attributes/GetSetAttribute.cs"
 "Assets/Start/DreamForestTree/PostProcessing/Runtime/Attributes/MinAttribute.cs"
 "Assets/Start/DreamForestTree/PostProcessing/Runtime/Attributes/TrackballAttribute.cs"
