@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class Bronzeunit : Unit
 {
-    public abstract void Initialize(string filename, int count)
+    public override void Initialize(string filename, int count)
     {
         data = CSVReader.Read("Bronze Unit");
 
         name = (string)data[count]["name"];
-        health = System.Convert.ToIn32(data[count]["health"]);
-        attack = System.Convert.ToIn32(data[count]["attack"]);
+        health = System.Convert.ToInt32(data[count]["health"]);
+        attack = System.Convert.ToInt32(data[count]["attack"]);
     }
 
     protected override void Movement()

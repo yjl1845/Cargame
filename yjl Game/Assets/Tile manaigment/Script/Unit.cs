@@ -14,9 +14,8 @@ public abstract class Unit : MonoBehaviour
 
     public abstract void Initialize(string filename, int count);
 
-    private void Update()
+    void Update()
     {
         Movement();
     }
-
 }
