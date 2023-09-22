@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Pillar
   - Billiard Ball
+  - Boss
+  - Player1
   layers:
   - Default
   - TransparentFX

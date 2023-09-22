@@ -350,6 +350,8 @@
 "Assets/Animation/Script/AnimatorManager.cs"
 "Assets/Animation/Script/Parallax.cs"
 "Assets/Instatiatr&Destroy/Battle Game/Script/Boss.cs"
+"Assets/Instatiatr&Destroy/Battle Game/Script/MyUnit.cs"
+"Assets/Instatiatr&Destroy/Battle Game/Script/UnitS.cs"
 "Assets/Instatiatr&Destroy/Script/Create.cs"
 "Assets/Instatiatr&Destroy/Script/Delete.cs"
 "Assets/Monster/Monster.cs"
