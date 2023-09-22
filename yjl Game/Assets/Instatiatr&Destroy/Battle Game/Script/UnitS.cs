@@ -75,7 +75,7 @@ public abstract class UnitS : MonoBehaviour
     {
         health -= damage;
 
-        if (health < 0);
+        if (health < 0)
         {
             state = State.DIE;
         }
