@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Xml.Serialization;
 using UnityEngine;
 
 public enum State
@@ -13,26 +14,21 @@ public enum State
 
 public abstract class UnitS : MonoBehaviour
 {
-
-    protected float health;
+    protected float maxHP;
+    public float health;
     protected float attack;
     protected float speed;
 
     protected Collider target;
     protected Animator animator;
 
-    protected State state;
+    public State state;
 
     private void Awake()
     {
         animator = GetComponent<Animator>();
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -66,18 +62,5 @@ public abstract class UnitS : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        
-    }
-
-    public void Hit(float damage)
-    {
-        health -= damage;
-
-        if (health < 0)
-        {
-            state = State.DIE;
-        }
-    }
+    public abstract void Hit(float damage);
 }
