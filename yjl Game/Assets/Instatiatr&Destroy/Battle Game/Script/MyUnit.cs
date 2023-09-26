@@ -5,24 +5,24 @@ using static UnityEngine.GraphicsBuffer;
 
 public class MyUnit : UnitS
 {
-    public HPUI hpbar;
 
     // Start is called before the first frame update
     void Start()
     {
-        health = 100;
-        attack = 50;
+        health = 500;
+        attack = 10;
         speed = 1.0f;
 
         maxHP = health;
 
-        hpbar = GetComponent<HPUI>();
         animator.runtimeAnimatorController = (RuntimeAnimatorController)Resources.Load("My Unit");
     }
 
     public override void Hit(float damage)
     {
         health -= damage;
+
+        hpbar.CurrentHP(health, maxHP);
 
         if (health <= 0)
         {
@@ -34,11 +34,6 @@ public class MyUnit : UnitS
     public void Damage(float damage)
     {
         target.GetComponent<Boss>().Hit(attack);
-        target.GetComponent<Boss>().hpbar.CurrentHP(health, maxHP);
-
-        Debug.Log(target.GetComponent<Boss>().health);
-        //target.GetComponent<Boss>().Hit(attack);
-        //
     }
 
     private void OnTriggerEnter(Collider other)

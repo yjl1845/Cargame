@@ -19,6 +19,7 @@ public abstract class UnitS : MonoBehaviour
     protected float attack;
     protected float speed;
 
+    protected HPUI hpbar;
     protected Collider target;
     protected Animator animator;
 
@@ -26,6 +27,7 @@ public abstract class UnitS : MonoBehaviour
 
     private void Awake()
     {
+        hpbar = GetComponent<HPUI>();
         animator = GetComponent<Animator>();
     }
 
