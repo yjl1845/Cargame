@@ -10,9 +10,10 @@ public class Boss : UnitS
     {
         health = 300;
         attack = 50;
-        speed = -1.0f;
+        speed = -100.0f;
 
         maxHP = health;
+        maxspeed = speed;
 
         animator.runtimeAnimatorController = (RuntimeAnimatorController) Resources.Load("Boss");
     }
@@ -31,8 +32,8 @@ public class Boss : UnitS
         if (health <= 0)
         {
             state = State.DIE;
+
             target.GetComponent<MyUnit>().state = State.RUN;
-            speed = -1.0f;
         }
     }
 

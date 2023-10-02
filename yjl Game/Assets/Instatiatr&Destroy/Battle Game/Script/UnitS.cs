@@ -15,6 +15,7 @@ public enum State
 public abstract class UnitS : MonoBehaviour
 {
     protected float maxHP;
+    protected float maxspeed;
     public float health;
     protected float attack;
     protected float speed;
@@ -48,6 +49,7 @@ public abstract class UnitS : MonoBehaviour
 
     public virtual void Move()
     {
+        speed = maxspeed;
         animator.SetBool("Attack", false);
         transform.Translate(transform.forward * speed * Time.deltaTime);
     }

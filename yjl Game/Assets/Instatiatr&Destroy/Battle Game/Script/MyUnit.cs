@@ -11,9 +11,10 @@ public class MyUnit : UnitS
     {
         health = 500;
         attack = 10;
-        speed = 1.0f;
+        speed = 100.0f;
 
         maxHP = health;
+        maxspeed = speed;
 
         animator.runtimeAnimatorController = (RuntimeAnimatorController)Resources.Load("My Unit");
     }

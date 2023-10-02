@@ -9,7 +9,7 @@ public class CharacterControll : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        animator = GetComponent<animator>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame 
