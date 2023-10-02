@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Instatiatr&Destroy/Battle Game/Scene/Title.unity
+- path: Assets/Animation Bland/Scene/SCene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
