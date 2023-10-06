@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Instatiatr&Destroy/Battle Game/Scene/Scene Battle.unity
+- path: Assets/Sound/Scene/Sound.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

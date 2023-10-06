@@ -367,6 +367,8 @@
 "Assets/Object Pool/Script/UIManager.cs"
 "Assets/Physics/Script/BilliardBall.cs"
 "Assets/Physics/Script/PhysicsManager.cs"
+"Assets/Sound/Script/AudioManager.cs"
+"Assets/Sound/Script/Drone.cs"
 "Assets/Start/DreamForestTree/PostProcessing/Runtime/Attributes/GetSetAttribute.cs"
 "Assets/Start/DreamForestTree/PostProcessing/Runtime/Attributes/MinAttribute.cs"
 "Assets/Start/DreamForestTree/PostProcessing/Runtime/Attributes/TrackballAttribute.cs"
