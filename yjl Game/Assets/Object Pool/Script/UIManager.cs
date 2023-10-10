@@ -17,14 +17,13 @@ public class UIManager : MonoBehaviour
     public void IncreaseScore()
     {
         DataManager.instance.Score += 100;
+        scoreText.text = "Score : " + DataManager.instance.Score;
 
         if (PlayerPrefs.GetInt("SCORE") <= DataManager.instance.Bestscore)
         {
             DataManager.instance.Bestscore = DataManager.instance.Score;
             bestscore.text = "Best Score : " + DataManager.instance.Bestscore;
         }
-        
-        scoreText.text = "Score : " + DataManager.instance.Score;
     }
 
     public void ResetScore()
@@ -35,8 +34,8 @@ public class UIManager : MonoBehaviour
 
     public void ResetBestScore()
     {
-        DataManager.instance.Bestscore = 0;
         DataManager.instance.Score = 0;
+        DataManager.instance.Bestscore = 0;
         bestscore.text = "Best Score : " + DataManager.instance.Bestscore;
     }
 
