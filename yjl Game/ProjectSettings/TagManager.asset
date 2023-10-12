@@ -3,27 +3,23 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Pillar
-  - Billiard Ball
-  - Boss
-  - Player1
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - switch
+  - 
   - Water
   - UI
-  - Sprite
-  - Model
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - 9 Wheel
+  - 10 Reinforce
+  - 11 MainBody
+  - 12 Bullet
+  - 13 Armor Collider
+  - 14 Extra Collider
   - 
   - 
   - 

@@ -361,6 +361,8 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
+"Assets/Game Make/RunGame/Kawaii_Tanks_Project (Free)/Editor/Track_Deform_CSEditor.cs"
+"Assets/Game Make/RunGame/Kawaii_Tanks_Project (Free)/Editor/Track_Scroll_CSEditor.cs"
 "Assets/Start/DreamForestTree/PostProcessing/Editor/Attributes/PostProcessingModelEditorAttribute.cs"
 "Assets/Start/DreamForestTree/PostProcessing/Editor/Models/AmbientOcclusionModelEditor.cs"
 "Assets/Start/DreamForestTree/PostProcessing/Editor/Models/AntialiasingModelEditor.cs"

@@ -15,6 +15,8 @@ public class PlayerControll : MonoBehaviour
     [SerializeField] float positionX = 3.5f;
     [SerializeField] RoadLine roadLine;
 
+    [SerializeField] ObjectSound objectSound = new ObjectSound();
+
     private void Start()
     {
         roadLine = RoadLine.MIDDLE;
@@ -35,6 +37,8 @@ public class PlayerControll : MonoBehaviour
         // 왼쪽 방향키를 눌렀을 때
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
+            AudioManager1.instance.Sound(objectSound.audioClip[0]);
+
             if (roadLine == RoadLine.LEFT)
             {
                 roadLine = RoadLine.LEFT;
@@ -49,6 +53,8 @@ public class PlayerControll : MonoBehaviour
         // 오른쪽 방향키를 눌렀을 때
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
+            AudioManager1.instance.Sound(objectSound.audioClip[0]);
+
             if (roadLine >= RoadLine.RIGHT)
             {
                 roadLine = RoadLine.RIGHT;
