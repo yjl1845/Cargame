@@ -85,6 +85,9 @@ Library\Bee\artifacts\mvdfrm\Unity.Android.Gradle.dll_5851664F2E69CC4D.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Android.Types.dll_4444DD03F0CE123F.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.Android.Extensions.dll_E5BF23AA6ED5AAAD.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.WindowsStandalone.Extensions.dll_8B83D77A39E31D0B.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Analytics.StandardEvents.dll_6B079AA3F1519E67.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Analytics.Editor.dll_87DECCAA3967C2CB.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Analytics.Tracker.dll_D51BD52C7C8D2AB6.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Plastic.Antlr3.Runtime.dll_9CF9DF4FAAEE0931.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Plastic.Newtonsoft.Json.dll_B202D1D5B3147474.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.IonicZip.dll_6509A44D718F36C2.mvfrm

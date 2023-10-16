@@ -26,14 +26,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Exposure: 1
+    - _Exposure: 0.47
     - _FogBottom: 0
-    - _FogEnd: 0.4
-    - _FogIntens: 1
+    - _FogEnd: 0
+    - _FogIntens: 0
     - _FogStart: 0
-    - _MieIntens: 0
+    - _MieIntens: 2
     - _MieSize: 0.8
-    - _Rotation: 0
+    - _Rotation: 149
     - _SunDir: 0
     m_Colors:
     - _FogCol: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
