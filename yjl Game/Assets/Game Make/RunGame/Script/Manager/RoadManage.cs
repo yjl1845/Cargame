@@ -38,5 +38,8 @@ public class RoadManage : MonoBehaviour
         firstRoad.transform.position = new Vector3(0, 0, newZ);
 
         roads.Add(firstRoad);
+
+        // 하위 오브젝트에 있는 CoinManager 클래스에 NewPosition() 함수를 호출한다.
+        firstRoad.transform.GetComponentInChildren<CoinManager>().NewPosition();
     }
 }

@@ -15,7 +15,7 @@ C:/Users/Administrator/Desktop/Cargame/yjl Game
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-49808
+49895
 Successfully changed project path to: C:/Users/Administrator/Desktop/Cargame/yjl Game
 C:/Users/Administrator/Desktop/Cargame/yjl Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/Administrator/Desktop/Cargame/yjl Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8208] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 241467333 [EditorId] 241467333 [Version] 1048832 [Id] WindowsEditor(7,I-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [18672] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 598444006 [EditorId] 598444006 [Version] 1048832 [Id] WindowsEditor(7,I-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8208] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 241467333 [EditorId] 241467333 [Version] 1048832 [Id] WindowsEditor(7,I-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18672] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 598444006 [EditorId] 598444006 [Version] 1048832 [Id] WindowsEditor(7,I-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 91.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 145.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -68,80 +68,81 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003666 seconds.
+Registered in 0.003541 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 176 ms
-Refreshing native plugins compatible for Editor in 72.71 ms, found 3 plugins.
+Android Extension - Scanning For ADB Devices 164 ms
+Refreshing native plugins compatible for Editor in 121.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.792 seconds
+- Completed reload, in  0.760 seconds
 Domain Reload Profiling:
-	ReloadAssembly (792ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (761ms)
+		BeginReloadAssembly (76ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (598ms)
-			LoadAssemblies (107ms)
+		EndReloadAssembly (613ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (96ms)
+			SetupTypeCache (89ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (444ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (467ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (254ms)
+				InitializePlatformSupportModulesInManaged (238ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (73ms)
+				RefreshPlugins (122ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (79ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002991 seconds.
+Registered in 0.004893 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 122.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.299 seconds
+- Completed reload, in  1.759 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1300ms)
-		BeginReloadAssembly (119ms)
+	ReloadAssembly (1759ms)
+		BeginReloadAssembly (107ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1097ms)
-			LoadAssemblies (97ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1570ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (243ms)
+			SetupTypeCache (293ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (701ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (1090ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (598ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
+				RefreshPlugins (122ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (672ms)
+				ProcessInitializeOnLoadMethodAttributes (147ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -150,19 +151,559 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3283 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (334.3 KB). Loaded Objects now: 3780.
-Memory consumption went from 153.7 MB to 153.4 MB.
-Total: 3.038700 ms (FindLiveObjects: 0.399100 ms CreateObjectMapping: 0.280500 ms MarkObjects: 2.224600 ms  DeleteObjects: 0.133600 ms)
+Unloading 6587 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (1.0 MB). Loaded Objects now: 7057.
+Memory consumption went from 281.4 MB to 280.4 MB.
+Total: 5.771400 ms (FindLiveObjects: 0.505200 ms CreateObjectMapping: 0.498300 ms MarkObjects: 4.464500 ms  DeleteObjects: 0.302600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004874 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.618 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1619ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1378ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (296ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (873ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (583ms)
+				ProcessInitializeOnLoadMethodAttributes (165ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6461 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (0.9 MB). Loaded Objects now: 7060.
+Memory consumption went from 269.2 MB to 268.3 MB.
+Total: 7.912000 ms (FindLiveObjects: 0.881300 ms CreateObjectMapping: 1.098200 ms MarkObjects: 5.552300 ms  DeleteObjects: 0.379200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005582 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.631 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1632ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1410ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (295ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (915ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (609ms)
+				ProcessInitializeOnLoadMethodAttributes (182ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6461 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (0.9 MB). Loaded Objects now: 7063.
+Memory consumption went from 269.2 MB to 268.3 MB.
+Total: 6.262400 ms (FindLiveObjects: 0.614700 ms CreateObjectMapping: 0.569500 ms MarkObjects: 4.749900 ms  DeleteObjects: 0.327300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004737 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.577 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1578ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1356ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (281ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (877ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (585ms)
+				ProcessInitializeOnLoadMethodAttributes (167ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6461 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (0.9 MB). Loaded Objects now: 7066.
+Memory consumption went from 269.2 MB to 268.3 MB.
+Total: 5.873000 ms (FindLiveObjects: 0.491000 ms CreateObjectMapping: 0.468400 ms MarkObjects: 4.598700 ms  DeleteObjects: 0.314100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004872 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.624 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1625ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1394ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (295ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (890ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (589ms)
+				ProcessInitializeOnLoadMethodAttributes (175ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6461 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (0.9 MB). Loaded Objects now: 7069.
+Memory consumption went from 269.2 MB to 268.3 MB.
+Total: 5.904500 ms (FindLiveObjects: 0.573200 ms CreateObjectMapping: 0.513100 ms MarkObjects: 4.513100 ms  DeleteObjects: 0.304300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004835 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.539 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1540ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1310ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (275ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (848ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (556ms)
+				ProcessInitializeOnLoadMethodAttributes (170ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6461 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (0.9 MB). Loaded Objects now: 7072.
+Memory consumption went from 269.3 MB to 268.3 MB.
+Total: 6.841200 ms (FindLiveObjects: 0.605600 ms CreateObjectMapping: 0.718600 ms MarkObjects: 5.093800 ms  DeleteObjects: 0.422100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005596 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.614 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1614ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1380ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (290ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (884ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (574ms)
+				ProcessInitializeOnLoadMethodAttributes (182ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6461 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (0.9 MB). Loaded Objects now: 7075.
+Memory consumption went from 269.3 MB to 268.3 MB.
+Total: 6.782300 ms (FindLiveObjects: 0.510700 ms CreateObjectMapping: 0.514600 ms MarkObjects: 5.397800 ms  DeleteObjects: 0.358400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004546 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.561 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1561ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1343ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (277ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (874ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (576ms)
+				ProcessInitializeOnLoadMethodAttributes (170ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6461 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (0.9 MB). Loaded Objects now: 7078.
+Memory consumption went from 269.3 MB to 268.4 MB.
+Total: 6.054000 ms (FindLiveObjects: 0.531400 ms CreateObjectMapping: 0.557300 ms MarkObjects: 4.635100 ms  DeleteObjects: 0.329300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004647 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.589 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1589ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1370ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (889ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (581ms)
+				ProcessInitializeOnLoadMethodAttributes (180ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6461 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (0.9 MB). Loaded Objects now: 7081.
+Memory consumption went from 269.3 MB to 268.4 MB.
+Total: 6.441600 ms (FindLiveObjects: 0.637300 ms CreateObjectMapping: 0.727500 ms MarkObjects: 4.749400 ms  DeleteObjects: 0.326800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004730 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.600 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1600ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1378ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (298ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (880ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (584ms)
+				ProcessInitializeOnLoadMethodAttributes (168ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6461 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (0.9 MB). Loaded Objects now: 7084.
+Memory consumption went from 269.3 MB to 268.4 MB.
+Total: 6.124500 ms (FindLiveObjects: 0.637600 ms CreateObjectMapping: 0.580500 ms MarkObjects: 4.576100 ms  DeleteObjects: 0.329700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
@@ -171,11 +712,435 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 462.330520 seconds.
-  path: Assets/Game Make/RunGame/Texture/Boy_LowerBody_diffuse.png
-  artifactKey: Guid(52c2abeb34e81284eb1bde71247721ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 2278.510116 seconds.
+  path: Assets/Game Make/RunGame/Item/USBKey/Materials/USBKey_Red.mat
+  artifactKey: Guid(9ae364dfda33c4741a3f5a46f1116764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/Texture/Boy_LowerBody_diffuse.png using Guid(52c2abeb34e81284eb1bde71247721ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0d8fc25fbef565423329be70a84a87') in 0.084706 seconds 
+Start importing Assets/Game Make/RunGame/Item/USBKey/Materials/USBKey_Red.mat using Guid(9ae364dfda33c4741a3f5a46f1116764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d9965e6332dd9831fbe743700c60da') in 0.127600 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Game Make/RunGame/Item/Valve/Materials/Valve.mat
+  artifactKey: Guid(ccf62083214921745a874a47a5a86561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Item/Valve/Materials/Valve.mat using Guid(ccf62083214921745a874a47a5a86561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7489e6f651adf2006161f1a15eff40') in 0.023628 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.473256 seconds.
+  path: Assets/Game Make/RunGame/Tank 3D Model/Materials/Tank_body.mat
+  artifactKey: Guid(5178b8fcc87adfd44b968488357606cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Tank 3D Model/Materials/Tank_body.mat using Guid(5178b8fcc87adfd44b968488357606cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cfc64a1ef989b8a0914bca68a4f6853') in 0.038669 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Materials/Stegasaurus_Green2.mat
+  artifactKey: Guid(98f318997a409174e8442de367b6d2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Materials/Stegasaurus_Green2.mat using Guid(98f318997a409174e8442de367b6d2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25f5f21f78713c2f7170e69bb123f3b') in 0.323212 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Game Make/RunGame/Kawaii_Tanks_Project (Free)/Meshes/SD_Firefly/Materials/SD_Firefly_Base.mat
+  artifactKey: Guid(cc68021fd94f98d40bf79c71a87ad3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Kawaii_Tanks_Project (Free)/Meshes/SD_Firefly/Materials/SD_Firefly_Base.mat using Guid(cc68021fd94f98d40bf79c71a87ad3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9630c3fa38374f8c163cbfab29812911') in 0.032460 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Game Make/RunGame/Ultra Skybox Fog/Materials/satara_night_8k.mat
+  artifactKey: Guid(0c56b35a6d7bad544a5b576592b6e51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Ultra Skybox Fog/Materials/satara_night_8k.mat using Guid(0c56b35a6d7bad544a5b576592b6e51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db394aea8af2d57fe36bb03e2bb4ad5b') in 0.033450 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Game Make/RunGame/Kawaii_Tanks_Project (Free)/Meshes/SD_Firefly/Materials/SD_Firefly_Wheel.mat
+  artifactKey: Guid(cc3e232df0d39ba4b923b13dec97d059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Kawaii_Tanks_Project (Free)/Meshes/SD_Firefly/Materials/SD_Firefly_Wheel.mat using Guid(cc3e232df0d39ba4b923b13dec97d059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383139c8bc4869fc5e6edf0d5d75e984') in 0.049729 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tile manaigment/FourEvilDragonsPBR/Materials/DragonNightmare/RedPBR.mat
+  artifactKey: Guid(8a2d1f9276d746a42925272a2372ca11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Tile manaigment/FourEvilDragonsPBR/Materials/DragonNightmare/RedPBR.mat using Guid(8a2d1f9276d746a42925272a2372ca11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36033800943c50ffc65edff5fc9f22e') in 0.248510 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Materials/Stegasaurus_Yellow.mat
+  artifactKey: Guid(64d063f99938e684da3e2e985ebc1523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Materials/Stegasaurus_Yellow.mat using Guid(64d063f99938e684da3e2e985ebc1523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fcc1f72c83c9991205ef2643c62546b') in 0.034297 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Start/DreamForestTree/DemoScene/Materials/ReflectionProbe-0.mat
+  artifactKey: Guid(deb339764941d2d4f840b1bfef5e7582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Start/DreamForestTree/DemoScene/Materials/ReflectionProbe-0.mat using Guid(deb339764941d2d4f840b1bfef5e7582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515a4230cf2cc55db433f645cbba8957') in 0.063590 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Start/DreamForestTree/Shaft/shaft.mat
+  artifactKey: Guid(60c22c2cc1c23a341911b5d9a861c24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Start/DreamForestTree/Shaft/shaft.mat using Guid(60c22c2cc1c23a341911b5d9a861c24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511d725f3b7928a4b5ae5bb8b1977cd5') in 0.041947 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Game Make/RunGame/Kawaii_Tanks_Project (Free)/Meshes/SD_Firefly/Materials/SD_Firefly_TrackBelt.mat
+  artifactKey: Guid(3cfcedfabdaaf424ca9380fe6b669a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Kawaii_Tanks_Project (Free)/Meshes/SD_Firefly/Materials/SD_Firefly_TrackBelt.mat using Guid(3cfcedfabdaaf424ca9380fe6b669a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a0ecfdfb6af12a53a83e2be48a1f51') in 0.036895 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tile manaigment/FourEvilDragonsPBR/Materials/Stage.mat
+  artifactKey: Guid(34466cf7960487a4380913c62e795ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Tile manaigment/FourEvilDragonsPBR/Materials/Stage.mat using Guid(34466cf7960487a4380913c62e795ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2a1fe99485561a4abd5b8e9bad7c89') in 0.104469 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Materials/StegasaurusEyes.mat
+  artifactKey: Guid(f7a18bc3d4130ca4ea22478f6b6da97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Materials/StegasaurusEyes.mat using Guid(f7a18bc3d4130ca4ea22478f6b6da97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0cb06bb3f941165b2a619a9b7f6ff4') in 0.245842 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Instatiatr&Destroy/Battle Game/FourEvilDragonsPBR/Materials/Stage.mat
+  artifactKey: Guid(2baee74059a31b14994af1964b7d0e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Instatiatr&Destroy/Battle Game/FourEvilDragonsPBR/Materials/Stage.mat using Guid(2baee74059a31b14994af1964b7d0e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282000fd4dc4e0aa70a033fc775c8be1') in 0.008881 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Game Make/RunGame/Tank 3D Model/Materials/Tank_track.mat
+  artifactKey: Guid(fa3f94600b2037f4bb54a1caa8640820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Tank 3D Model/Materials/Tank_track.mat using Guid(fa3f94600b2037f4bb54a1caa8640820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef6efab29207c379c3c7d98a4de9683') in 0.012193 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/NavMesh.Agent/NavMesh Agent/Texture/Materials/Stone Wall.mat
+  artifactKey: Guid(c600c7cec3c0ad94a8e368b87ef7f9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/NavMesh.Agent/NavMesh Agent/Texture/Materials/Stone Wall.mat using Guid(c600c7cec3c0ad94a8e368b87ef7f9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7617ae0bde00132ca6cef764866efc49') in 0.029161 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.366927 seconds.
+  path: Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Materials/Mobile/RaptorEyesClawsTeethSpikesMobile.mat
+  artifactKey: Guid(d737c3d5f2ef50f4b9a3a0cf85875282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Materials/Mobile/RaptorEyesClawsTeethSpikesMobile.mat using Guid(d737c3d5f2ef50f4b9a3a0cf85875282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c57df571248a26e615ecaa24683173') in 0.103394 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Instatiatr&Destroy/Battle Game/FourEvilDragonsPBR/Materials/DragonSoulEater/RedPBR.mat
+  artifactKey: Guid(0e4257aafcee278488818f5cbf5141fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Instatiatr&Destroy/Battle Game/FourEvilDragonsPBR/Materials/DragonSoulEater/RedPBR.mat using Guid(0e4257aafcee278488818f5cbf5141fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4e8460094f1d44a80c697b697036f0') in 0.351002 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Materials/Mobile/RaptorBodyCMobile.mat
+  artifactKey: Guid(4d686652e77d7df45a4affde252bfbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Materials/Mobile/RaptorBodyCMobile.mat using Guid(4d686652e77d7df45a4affde252bfbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59767e9e5494ad2d457d0c1fc38d97f') in 0.038786 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tile manaigment/FourEvilDragonsPBR/Materials/DragonSoulEater/RedPBR.mat
+  artifactKey: Guid(483bc84e9c06fb74a978565bf66ff42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Tile manaigment/FourEvilDragonsPBR/Materials/DragonSoulEater/RedPBR.mat using Guid(483bc84e9c06fb74a978565bf66ff42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f5fd30e2c7d9176a9959724d24797e') in 0.044245 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Materials/V10PBR/RaptorBodyB.mat
+  artifactKey: Guid(16106db2626066345a7fd5339d91bde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Materials/V10PBR/RaptorBodyB.mat using Guid(16106db2626066345a7fd5339d91bde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0521f00a02df7e4d7462af9ca507537') in 0.238841 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Materials/V12PBR/RaptorBodyD.mat
+  artifactKey: Guid(1dd27e2c6a1833d4abbb420edc70ee5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Materials/V12PBR/RaptorBodyD.mat using Guid(1dd27e2c6a1833d4abbb420edc70ee5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac027dca99753f2f833125c6b34313b5') in 0.270857 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Materials/V10PBR/RaptorBodyD.mat
+  artifactKey: Guid(41781e3d021c6ea4aaaa2f623c66594d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Materials/V10PBR/RaptorBodyD.mat using Guid(41781e3d021c6ea4aaaa2f623c66594d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8a5e6dbe1cc120e52da7860ef48f06') in 0.036311 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Materials/V12PBR/RaptorBodyC.mat
+  artifactKey: Guid(d7a89a8d75914b54888758772e6c3a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Materials/V12PBR/RaptorBodyC.mat using Guid(d7a89a8d75914b54888758772e6c3a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09067794adfbd1317454d0cded5943b5') in 0.056325 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Materials/V10PBR/RaptorBodyC.mat
+  artifactKey: Guid(8a481aaf49a54424eb761a4f43c10f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Materials/V10PBR/RaptorBodyC.mat using Guid(8a481aaf49a54424eb761a4f43c10f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8f3a4b56d9a2831b9e6372f016a841') in 0.030554 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.237835 seconds.
+  path: Assets/Tile manaigment/FourEvilDragonsPBR/Materials/DragonSoulEater/PurplePBR.mat
+  artifactKey: Guid(0526c5be35ba93547acf614ed1950a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Tile manaigment/FourEvilDragonsPBR/Materials/DragonSoulEater/PurplePBR.mat using Guid(0526c5be35ba93547acf614ed1950a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70a9d8d1afb283607d47672bc62e0a7') in 0.097848 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Instatiatr&Destroy/Battle Game/FourEvilDragonsPBR/Materials/DragonSoulEater/PurplePBR.mat
+  artifactKey: Guid(5b43e074ef4dbf24d9101be57a0740e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Instatiatr&Destroy/Battle Game/FourEvilDragonsPBR/Materials/DragonSoulEater/PurplePBR.mat using Guid(5b43e074ef4dbf24d9101be57a0740e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0980d3916fffbd5188a5db0eaa7df7fc') in 0.052861 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Materials/V12PBR/RaptorBodyB.mat
+  artifactKey: Guid(1e5ec7b8a50b22440ab527b61557b73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Materials/V12PBR/RaptorBodyB.mat using Guid(1e5ec7b8a50b22440ab527b61557b73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77cfb078fcf3697b1329ae2820b81b2e') in 0.048789 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.646199 seconds.
+  path: Assets/Object Pool/Ammunition pack (demo)/Materials/Platform_mat.mat
+  artifactKey: Guid(dc373e2b02159094eaa68fa84e24cb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Object Pool/Ammunition pack (demo)/Materials/Platform_mat.mat using Guid(dc373e2b02159094eaa68fa84e24cb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed00fddcdec279d15bc46f65178a5dac') in 0.017889 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Props_BillBoard_large.mat
+  artifactKey: Guid(f75e227920ccbc54a86b0f655ddc5b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Props_BillBoard_large.mat using Guid(f75e227920ccbc54a86b0f655ddc5b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7384c813c1d2715cdc769b2bd1a2a7') in 0.023105 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Props_RoofProps.mat
+  artifactKey: Guid(9e031cf10ecdeb64486f21e9f55ffcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Props_RoofProps.mat using Guid(9e031cf10ecdeb64486f21e9f55ffcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0bbddf5130c6df60a2570eaa4eeefc8') in 0.012882 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusBodyE.mat
+  artifactKey: Guid(6a231a23fd7a73a41a91bc46759014f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusBodyE.mat using Guid(6a231a23fd7a73a41a91bc46759014f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15803f50e9426ef07895601d9526923') in 0.102053 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.139244 seconds.
+  path: Assets/Start/DreamForestTree/TreesModels/RedWood 2.prefab
+  artifactKey: Guid(6c9e41e24d2bc6b488c927f43944457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Start/DreamForestTree/TreesModels/RedWood 2.prefab using Guid(6c9e41e24d2bc6b488c927f43944457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef46a00f0c5c99a4c659d5897ed1a21') in 0.591378 seconds 
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Models/5K/Raptor_Animated_FBX_5K.fbx
+  artifactKey: Guid(6bcc76aebcc27f641a1ba39f7e8e5fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Models/5K/Raptor_Animated_FBX_5K.fbx using Guid(6bcc76aebcc27f641a1ba39f7e8e5fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b022a723e382aec4c4fd26774cd5289c') in 0.245882 seconds 
+Number of asset objects unloaded after import = 275
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Materials/Material_Roughness.mat
+  artifactKey: Guid(ca4385dff3d014a48b2daca0c821b5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Materials/Material_Roughness.mat using Guid(ca4385dff3d014a48b2daca0c821b5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6762935f3d2cc1d9d5f9a893c68d89ff') in 0.043416 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusBodyD.mat
+  artifactKey: Guid(9acef97affffe9448a84281888317a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusBodyD.mat using Guid(9acef97affffe9448a84281888317a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e62d5cced2c3c404e5a74a325a4ec02') in 0.042455 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e4aa2acfb40cacad2ac304a9357eea') in 0.118937 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Game Make/RunGame/Item/Crank/Materials/New Material.mat
+  artifactKey: Guid(640f35da4ab27df449e9579e8c01733b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Item/Crank/Materials/New Material.mat using Guid(640f35da4ab27df449e9579e8c01733b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b805cc88d978d80d296a89a9c679954') in 0.051372 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusBodyB.mat
+  artifactKey: Guid(86139fe6f0366984492686819d9b18c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusBodyB.mat using Guid(86139fe6f0366984492686819d9b18c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9b236e48d22bfdfd49619a7375cd1c') in 0.045313 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Start/DreamForestTree/TreesModels/bush 1.prefab
+  artifactKey: Guid(4c001ec3cbfef9446a573fe16815e9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Start/DreamForestTree/TreesModels/bush 1.prefab using Guid(4c001ec3cbfef9446a573fe16815e9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18708dd7c3368e6477812c944a1a026a') in 0.112895 seconds 
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusBodyA.mat
+  artifactKey: Guid(003f825518bd40e40bcffdaeb15ac36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusBodyA.mat using Guid(003f825518bd40e40bcffdaeb15ac36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b37db5ca05cc27b28defdce4f35bc7') in 0.043287 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Start/DreamForestTree/TreesModels/RedWood 5.prefab
+  artifactKey: Guid(a7984f59c227d0240b9771d2797a085c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Start/DreamForestTree/TreesModels/RedWood 5.prefab using Guid(a7984f59c227d0240b9771d2797a085c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6285b90865b518f2520552d05a13f6ed') in 0.065862 seconds 
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Natures.mat
+  artifactKey: Guid(39f651e340882304fa6f21b321d3bea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Natures.mat using Guid(39f651e340882304fa6f21b321d3bea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9055bec2895087a7ac41c86a631746') in 0.013448 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Textures/AlbedoSkins/Materials/Material_Base_color.mat
+  artifactKey: Guid(8db81bdf670c3cc4eabbf5c4b6b99496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Textures/AlbedoSkins/Materials/Material_Base_color.mat using Guid(8db81bdf670c3cc4eabbf5c4b6b99496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeaa6d047b301b7575c6c87f4050faa9') in 0.032346 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Models/24K/Pachycephalasaurus_24K.fbx
+  artifactKey: Guid(a067c70fa964895469af3591bc9f4eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Translate/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Models/24K/Pachycephalasaurus_24K.fbx using Guid(a067c70fa964895469af3591bc9f4eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c05ef5f99e5de9853beae3070f3f947') in 0.115596 seconds 
+Number of asset objects unloaded after import = 261
+========================================================================
+Received Import Request.
+  Time since last request: 0.997542 seconds.
+  path: Assets/Game Make/RunGame/Kawaii_Tanks_Project (Free)/Meshes/Props/House_A/Materials/House_A_Low_Base.mat
+  artifactKey: Guid(c55a3fc31895ed640b0e4a0510cd1642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Kawaii_Tanks_Project (Free)/Meshes/Props/House_A/Materials/House_A_Low_Base.mat using Guid(c55a3fc31895ed640b0e4a0510cd1642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8123351bce3b2a54c3eab713fee5fc86') in 0.014476 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tile manaigment/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Run.fbx
+  artifactKey: Guid(1bd6660a3bd1c5342942bcb54ed1d65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Tile manaigment/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Run.fbx using Guid(1bd6660a3bd1c5342942bcb54ed1d65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e470263c8ec117a8d9f49f81bf05a4e8') in 0.043077 seconds 
+Number of asset objects unloaded after import = 178
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Instatiatr&Destroy/Battle Game/FourEvilDragonsPBR/Materials/DragonTerrorBringer/GreyPBR.mat
+  artifactKey: Guid(d6c7dcf8e29d2314f872efc4f7aeb0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Instatiatr&Destroy/Battle Game/FourEvilDragonsPBR/Materials/DragonTerrorBringer/GreyPBR.mat using Guid(d6c7dcf8e29d2314f872efc4f7aeb0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d217328ed395b67b72303ad88c301c') in 0.189356 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Game Make/RunGame/Tank 3D Model/Materials/Ground.mat
+  artifactKey: Guid(097586868c1d614459e784ce767458fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Tank 3D Model/Materials/Ground.mat using Guid(097586868c1d614459e784ce767458fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa4b4b174cfac99b41b4a8f613ecb97') in 0.029669 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tile manaigment/FourEvilDragonsPBR/Materials/DragonTerrorBringer/GreyPBR.mat
+  artifactKey: Guid(dcc7344671ccf0044a1fb5038007860e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Tile manaigment/FourEvilDragonsPBR/Materials/DragonTerrorBringer/GreyPBR.mat using Guid(dcc7344671ccf0044a1fb5038007860e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83f93cf4154f623dc38e4fc4ec973ee') in 0.037820 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.360562 seconds.
+  path: Assets/Instatiatr&Destroy/Battle Game/FourEvilDragonsPBR/Materials/DragonTerrorBringer/GreenPBR.mat
+  artifactKey: Guid(20e4fd90c1c607043a30a18b19c70d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Instatiatr&Destroy/Battle Game/FourEvilDragonsPBR/Materials/DragonTerrorBringer/GreenPBR.mat using Guid(20e4fd90c1c607043a30a18b19c70d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bbec1398ece4220842f9922d54ff53e') in 0.048215 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Game Make/RunGame/Item/Gem/Materials/Gem_Blue.mat
+  artifactKey: Guid(13eeaaed3c01f084ab29f45259e79ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Item/Gem/Materials/Gem_Blue.mat using Guid(13eeaaed3c01f084ab29f45259e79ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe2620679b34e7928d3413d950c26fd') in 0.027047 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Game Make/RunGame/Kawaii_Tanks_Project (Free)/Meshes/Props/Ground_Tile/Materials/For_Stone.mat
+  artifactKey: Guid(212cd86843cae6341975f8d5037ff38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Kawaii_Tanks_Project (Free)/Meshes/Props/Ground_Tile/Materials/For_Stone.mat using Guid(212cd86843cae6341975f8d5037ff38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa2c01091d0c1a17b954e61298e3fb4') in 0.026864 seconds 
 Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
