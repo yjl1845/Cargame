@@ -46,9 +46,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interval: 2
   createCount: 15
+  positionX: 3.5
   coinPrefab: {fileID: 6582896159866962572, guid: 1e96b4f194eeea441b428b33e36ac0fa,
     type: 3}
   createPosition: {fileID: 0}
+  coins: []
 --- !u!1 &5503584982316250642
 GameObject:
   m_ObjectHideFlags: 0
@@ -935,7 +937,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 35807f23e7899e541b60b2fb2bbb51ef, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.9174957
+      value: -0.11
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 35807f23e7899e541b60b2fb2bbb51ef, type: 3}
       propertyPath: m_LocalRotation.w
