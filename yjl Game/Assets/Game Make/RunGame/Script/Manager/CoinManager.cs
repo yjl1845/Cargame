@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 [RequireComponent(typeof(Percentage))]
@@ -12,6 +13,8 @@ public class CoinManager : MonoBehaviour
     [SerializeField] int interval = 2;
     [SerializeField] int createCount = 20;
     [SerializeField] float positionX = 3.5f;
+
+    [SerializeField] GameObject rotatePrefab;
 
     [SerializeField] GameObject coinPrefab;
     [SerializeField] Transform createPosition;
@@ -68,6 +71,7 @@ public class CoinManager : MonoBehaviour
         foreach(var element in coins)
         {
             element.SetActive(true);
+            element.transform.rotation = Quaternion.Euler(0, rotatePrefab.transform.rotation.eulerAngles.y, 0);
         }
 
         bool flag = false;
