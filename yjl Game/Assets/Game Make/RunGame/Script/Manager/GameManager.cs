@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class GameManager : Singleton<GameManager>
 {
+
+    [SerializeField] Animator playerAnimator;
+
     // Start is called before the first frame update
     void Start()
     {
         GameOver();
     }
-
-
 
     public void GameOver()
     {
@@ -19,6 +20,7 @@ public class GameManager : Singleton<GameManager>
 
     public void GameStart()
     {
+        playerAnimator.SetLayerWeight(1,0);
         Time.timeScale = 1.0f;
     }
 }

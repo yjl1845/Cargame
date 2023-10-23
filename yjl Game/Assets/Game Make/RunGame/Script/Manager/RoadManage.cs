@@ -15,6 +15,7 @@ public class RoadManage : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        roads.Capacity = 10;
         roadCallback = NewPosition;
     }
 

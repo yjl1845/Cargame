@@ -106,7 +106,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 1.0094675
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -206,5 +206,5 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.079999916, y: 0.90180427, z: 0.9018042}
-  m_Center: {x: 0, y: 0, z: 0.000000014901161}
+  m_Size: {x: 0.4354443, y: 0.90180427, z: 0.9018042}
+  m_Center: {x: -0.0032950342, y: 0, z: 0}
