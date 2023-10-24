@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class ButtonManager : MonoBehaviour
@@ -11,8 +12,9 @@ public class ButtonManager : MonoBehaviour
     [SerializeField] List<Button> buttons;
     [SerializeField] int createCount = 4;
     [SerializeField] Transform createPosition;
+    [SerializeField] string [] titleName;
 
-    TextMeshPro TextMesh;
+    [SerializeField] UnityEvent callBack;
 
     // Start is called before the first frame update
     void Start()
@@ -32,40 +34,36 @@ public class ButtonManager : MonoBehaviour
 
             buttons.Add(button);
 
-            Debug.Log(button.transform.GetChild(0));
+            Debug.Log(button.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = titleName[i]);
         }
     }
 
     private void Register()
     {
-        buttons[0].onClick.AddListener(A);
+        buttons[0].onClick.AddListener(StartGame);
         buttons[1].onClick.AddListener(B);
         buttons[2].onClick.AddListener(C);
         buttons[3].onClick.AddListener(D);
     }
 
-    public void A()
+    public void StartGame()
     {
-        Debug.Log("A");
-        TextMesh Start;
+        GameManager.instance.StartCoroutine(GameManager.instance.StartRoutine());
     }
 
     public void B()
     {
-        Debug.Log("A");
-        TextMesh Shop;
+        Debug.Log("B");
     }
 
     public void C()
     {
-        Debug.Log("A");
-        TextMesh Option;
+        Debug.Log("C");
     }
 
     public void D()
     {
-        Debug.Log("A");
-        TextMesh Quit;
+        Debug.Log("D");
     }
 
 
