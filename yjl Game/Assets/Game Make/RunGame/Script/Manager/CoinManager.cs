@@ -71,7 +71,7 @@ public class CoinManager : MonoBehaviour
         foreach(var element in coins)
         {
             element.SetActive(true);
-            element.transform.rotation = Quaternion.Euler(0, rotatePrefab.transform.rotation.eulerAngles.y, 0);
+            element.transform.rotation = Quaternion.Euler(rotatePrefab.transform.rotation.eulerAngles.x, rotatePrefab.transform.rotation.eulerAngles.y, rotatePrefab.transform.rotation.eulerAngles.z);
         }
 
         bool flag = false;

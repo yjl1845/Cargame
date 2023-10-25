@@ -48,7 +48,8 @@ public class ButtonManager : MonoBehaviour
 
     public void StartGame()
     {
-        GameManager.instance.StartCoroutine(GameManager.instance.StartRoutine());
+        GameManager.instance.StartCoroutine(GameManager.instance.StartRoutine(3));
+ 
     }
 
     public void B()

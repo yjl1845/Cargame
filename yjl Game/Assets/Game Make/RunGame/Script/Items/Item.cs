@@ -15,7 +15,7 @@ public class Item : MonoBehaviour
 
     protected void OnEnable()
     {
-        transform.rotation = Quaternion.Euler(0, rotatePab.transform.rotation.eulerAngles.y, 0);
+        transform.rotation = Quaternion.Euler(rotatePab.transform.rotation.eulerAngles.x, rotatePab.transform.rotation.eulerAngles.y, rotatePab.transform.rotation.eulerAngles.z);
     }
 
     public void Awake()
