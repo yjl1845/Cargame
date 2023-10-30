@@ -36,7 +36,7 @@ public class PlayerControll : MonoBehaviour
     public void Move()
     {
         // 왼쪽 방향키를 눌렀을 때
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKeyDown(KeyCode.LeftArrow) && Time.timeScale != 0)
         {
             AudioManager1.instance.Sound(objectSound.audioClip[0]);
 
@@ -52,7 +52,7 @@ public class PlayerControll : MonoBehaviour
         }
 
         // 오른쪽 방향키를 눌렀을 때
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKeyDown(KeyCode.RightArrow) && Time.timeScale != 0)
         {
             AudioManager1.instance.Sound(objectSound.audioClip[0]);
 
