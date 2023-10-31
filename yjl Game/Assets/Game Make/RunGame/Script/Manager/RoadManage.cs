@@ -1,12 +1,17 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEditor;
 using UnityEngine;
 
 public class RoadManage : MonoBehaviour
 {
+    [SerializeField] int count = 0;
+    [SerializeField] int maxcount = 2;
+
     [SerializeField] List<GameObject> roads;
+
     [SerializeField] float speed = 1.0f;
     [SerializeField] float offset = 40f;
 
@@ -16,7 +21,9 @@ public class RoadManage : MonoBehaviour
     void Start()
     {
         roads.Capacity = 10;
+
         roadCallback = NewPosition;
+        roadCallback += Increase;
     }
 
     // Update is called once per frame
@@ -42,5 +49,14 @@ public class RoadManage : MonoBehaviour
 
         // 하위 오브젝트에 있는 CoinManager 클래스에 NewPosition() 함수를 호출한다.
         firstRoad.transform.GetComponentInChildren<CoinManager>().NewPosition();
+    }
+
+    public void Increase()
+    {
+        if (count < maxcount)
+        {
+            speed += Util.IncreaseValue(count++);
+            Debug.Log("증가");
+        }
     }
 }
