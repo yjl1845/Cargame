@@ -12,7 +12,6 @@ public class RoadManage : MonoBehaviour
 
     [SerializeField] List<GameObject> roads;
 
-    [SerializeField] float speed = 1.0f;
     [SerializeField] float offset = 40f;
 
     public static Action roadCallback;
@@ -31,7 +30,7 @@ public class RoadManage : MonoBehaviour
     {
         for(int i = 0; i <roads.Count; i++)
         {
-            roads[i].transform.Translate(Vector3.back * speed * Time.deltaTime);
+            roads[i].transform.Translate(Vector3.back * GameManager.instance.speed * Time.deltaTime);
         }
     }
 
@@ -48,14 +47,14 @@ public class RoadManage : MonoBehaviour
         roads.Add(firstRoad);
 
         // 하위 오브젝트에 있는 CoinManager 클래스에 NewPosition() 함수를 호출한다.
-        firstRoad.transform.GetComponentInChildren<CoinManager>().NewPosition();
+        // firstRoad.transform.GetComponentInChildren<CoinManager>().NewPosition();
     }
 
     public void Increase()
     {
         if (count < maxcount)
         {
-            speed += Util.IncreaseValue(count++);
+            GameManager.instance.speed += Util.IncreaseValue(count++);
             Debug.Log("증가");
         }
     }

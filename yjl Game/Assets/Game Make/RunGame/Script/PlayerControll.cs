@@ -93,5 +93,10 @@ public class PlayerControll : MonoBehaviour
             item.Use();
             other.gameObject.SetActive(false);
         }
+
+        if (other.CompareTag("Obstacle"))
+        {
+            Debug.Log("Ãæµ¹");
+        }
     }
 }
