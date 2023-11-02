@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.EventSystems;
 using UnityEngine.UIElements;
 
 public enum RoadLine
@@ -17,6 +19,8 @@ public class PlayerControll : MonoBehaviour
     [SerializeField] RoadLine roadLine;
 
     [SerializeField] ObjectSound objectSound = new ObjectSound();
+    [SerializeField] Animator animator;
+    [SerializeField] UnityEvent playerevent;
 
     private void Start()
     {
@@ -96,7 +100,13 @@ public class PlayerControll : MonoBehaviour
 
         if (other.CompareTag("Obstacle"))
         {
-            Debug.Log("Ãæµ¹");
+            OnDie();
         }
+    }
+
+    private void OnDie()
+    {
+        playerevent.Invoke();
+        animator.Play("Death");
     }
 }

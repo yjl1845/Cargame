@@ -538,6 +538,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vehicle_Truck_color01
       objectReference: {fileID: 0}
+    - target: {fileID: 7142553046746632006, guid: 755a67ff6bbc3554d86a5452bf911be4,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 755a67ff6bbc3554d86a5452bf911be4, type: 3}
 --- !u!4 &8419218655222009277 stripped
@@ -687,6 +692,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Vehicle_Car_color01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5224928761738081514, guid: 39ce886a82e0a134cb16fdb5e38dda44,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39ce886a82e0a134cb16fdb5e38dda44, type: 3}
@@ -975,6 +985,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Vehicle_Bus_color03
+      objectReference: {fileID: 0}
+    - target: {fileID: 3162769340507650657, guid: 6f47e6f528c04e84b9928a161f938dd7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f47e6f528c04e84b9928a161f938dd7, type: 3}

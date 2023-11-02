@@ -757,6 +757,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vehicle_Car_color03
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c98da428142c39c42bb62c454958cd1f, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c98da428142c39c42bb62c454958cd1f, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -913,6 +917,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
       propertyPath: m_Name
       value: Vehicle_Police Car
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
       propertyPath: m_RootOrder
