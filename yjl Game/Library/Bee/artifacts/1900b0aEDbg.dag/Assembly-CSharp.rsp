@@ -458,6 +458,7 @@
 "Assets/Game Make/RunGame/Script/Manager/GameManager.cs"
 "Assets/Game Make/RunGame/Script/Manager/InterfaceManager.cs"
 "Assets/Game Make/RunGame/Script/Manager/ItemManager.cs"
+"Assets/Game Make/RunGame/Script/Manager/ObstacleManager.cs"
 "Assets/Game Make/RunGame/Script/Manager/RoadManage.cs"
 "Assets/Game Make/RunGame/Script/Obstacle.cs"
 "Assets/Game Make/RunGame/Script/PlayerControll.cs"

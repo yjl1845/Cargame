@@ -4,8 +4,17 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
+
     void Update()
     {
-        // transform.Translate(Vector3.forward * GameManager.instance.speed * Time.deltaTime);
+        transform.Translate(Vector3.forward * GameManager.instance.speed * Time.deltaTime);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.CompareTag("DesaveZone"))
+        {
+            gameObject.SetActive(false);
+        }
     }
 }

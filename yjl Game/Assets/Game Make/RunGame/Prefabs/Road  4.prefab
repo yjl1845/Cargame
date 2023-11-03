@@ -543,7 +543,8 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Obstacle
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1487825524818942672, guid: 755a67ff6bbc3554d86a5452bf911be4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 755a67ff6bbc3554d86a5452bf911be4, type: 3}
 --- !u!4 &8419218655222009277 stripped
 Transform:
@@ -698,7 +699,8 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Obstacle
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9033890922879288536, guid: 39ce886a82e0a134cb16fdb5e38dda44, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 39ce886a82e0a134cb16fdb5e38dda44, type: 3}
 --- !u!4 &6184083094532790580 stripped
 Transform:
