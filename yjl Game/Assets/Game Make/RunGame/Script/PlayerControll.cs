@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -108,5 +109,10 @@ public class PlayerControll : MonoBehaviour
     {
         playerevent.Invoke();
         animator.Play("Death");
+    }
+
+    private void WaitForSecondsRealtime(float v)
+    {
+        throw new NotImplementedException();
     }
 }

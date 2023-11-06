@@ -15,7 +15,7 @@ C:/Users/Administrator/Desktop/Cargame/yjl Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49843
+49810
 Successfully changed project path to: C:/Users/Administrator/Desktop/Cargame/yjl Game
 C:/Users/Administrator/Desktop/Cargame/yjl Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/Administrator/Desktop/Cargame/yjl Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14648] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 820361900 [EditorId] 820361900 [Version] 1048832 [Id] WindowsEditor(7,I-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [9748] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 2576508347 [EditorId] 2576508347 [Version] 1048832 [Id] WindowsEditor(7,I-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [14648] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 820361900 [EditorId] 820361900 [Version] 1048832 [Id] WindowsEditor(7,I-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9748] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 2576508347 [EditorId] 2576508347 [Version] 1048832 [Id] WindowsEditor(7,I-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 124.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 236.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -68,80 +68,81 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003611 seconds.
+Registered in 0.003548 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 166 ms
-Refreshing native plugins compatible for Editor in 120.90 ms, found 3 plugins.
+Android Extension - Scanning For ADB Devices 1210 ms
+Refreshing native plugins compatible for Editor in 112.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.774 seconds
+- Completed reload, in  1.811 seconds
 Domain Reload Profiling:
-	ReloadAssembly (774ms)
-		BeginReloadAssembly (80ms)
+	ReloadAssembly (1811ms)
+		BeginReloadAssembly (82ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (619ms)
-			LoadAssemblies (79ms)
+		EndReloadAssembly (1656ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (93ms)
+			SetupTypeCache (92ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (467ms)
+			SetupLoadedEditorAssemblies (1507ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (238ms)
+				InitializePlatformSupportModulesInManaged (1282ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (121ms)
+				RefreshPlugins (112ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (70ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005088 seconds.
+Registered in 0.005453 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 128.14 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 120.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.784 seconds
+- Completed reload, in  1.825 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1784ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (1826ms)
+		BeginReloadAssembly (123ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (1587ms)
-			LoadAssemblies (99ms)
+		EndReloadAssembly (1595ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (300ms)
+			SetupTypeCache (305ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (1111ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (1095ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (128ms)
-				BeforeProcessingInitializeOnLoad (134ms)
-				ProcessInitializeOnLoadAttributes (671ms)
-				ProcessInitializeOnLoadMethodAttributes (157ms)
+				RefreshPlugins (120ms)
+				BeforeProcessingInitializeOnLoad (137ms)
+				ProcessInitializeOnLoadAttributes (664ms)
+				ProcessInitializeOnLoadMethodAttributes (153ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -150,12 +151,39 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6598 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 69 unused Assets / (1.0 MB). Loaded Objects now: 7068.
-Memory consumption went from 283.3 MB to 282.4 MB.
-Total: 6.889700 ms (FindLiveObjects: 0.593000 ms CreateObjectMapping: 0.502200 ms MarkObjects: 5.456900 ms  DeleteObjects: 0.336000 ms)
+Memory consumption went from 283.4 MB to 282.5 MB.
+Total: 6.136400 ms (FindLiveObjects: 0.564100 ms CreateObjectMapping: 0.531400 ms MarkObjects: 4.710800 ms  DeleteObjects: 0.329100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 130.807849 seconds.
+  path: Assets/Game Make/RunGame/Prefabs/Road  4.prefab
+  artifactKey: Guid(0e3affae55894374a9a999dfd1a81790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Prefabs/Road  4.prefab using Guid(0e3affae55894374a9a999dfd1a81790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb6f71e6852d764a5969f6fc8ad2066') in 0.115181 seconds 
+Number of asset objects unloaded after import = 142
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 58 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (0.9 MB). Loaded Objects now: 7077.
+Memory consumption went from 142.4 MB to 141.5 MB.
+Total: 6.737000 ms (FindLiveObjects: 0.521000 ms CreateObjectMapping: 0.565700 ms MarkObjects: 5.306900 ms  DeleteObjects: 0.342500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -171,388 +199,192 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 156.024209 seconds.
-  path: Assets/Game Make/RunGame/Shader/CurvedSurface.shader
-  artifactKey: Guid(85f5d2bba57f48345883bd070a93f747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 35.422601 seconds.
+  path: Assets/Game Make/RunGame/Prefabs/First Road.prefab
+  artifactKey: Guid(523d002a8ca6da74db650d0cee9a93ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/Shader/CurvedSurface.shader using Guid(85f5d2bba57f48345883bd070a93f747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30996f9937ac1ef5af80752388e1e4d1') in 0.037963 seconds 
-Number of asset objects unloaded after import = 0
+Start importing Assets/Game Make/RunGame/Prefabs/First Road.prefab using Guid(523d002a8ca6da74db650d0cee9a93ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965cbbb104f5e8d5505698b840c7e4c4') in 0.029086 seconds 
+Number of asset objects unloaded after import = 234
 ========================================================================
 Received Import Request.
-  Time since last request: 293.262813 seconds.
-  path: Assets/Game Make/RunGame/Shader/CurvedSurface.shader
-  artifactKey: Guid(85f5d2bba57f48345883bd070a93f747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 1
-Start importing Assets/Game Make/RunGame/Shader/CurvedSurface.shader using Guid(85f5d2bba57f48345883bd070a93f747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fccbcdbf3e59284ae687c55e9cd820fa') in 0.007397 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 11.381012 seconds.
-  path: Assets/Game Make/RunGame/Shader/NewUnlitShader.shader
-  artifactKey: Guid(276dc42ce41ff7249831bd66587e62b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 5.739338 seconds.
+  path: Assets/Game Make/RunGame/Prefabs/First Road.prefab
+  artifactKey: Guid(523d002a8ca6da74db650d0cee9a93ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/Shader/NewUnlitShader.shader using Guid(276dc42ce41ff7249831bd66587e62b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84bc6119c4e7311f7e40afb4a1d56cd') in 0.006341 seconds 
-Number of asset objects unloaded after import = 1
+Start importing Assets/Game Make/RunGame/Prefabs/First Road.prefab using Guid(523d002a8ca6da74db650d0cee9a93ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab01270547d1019f4b3ca7435a74b0c') in 0.020397 seconds 
+Number of asset objects unloaded after import = 233
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006595 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.659 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1660ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1437ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (340ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (896ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (595ms)
+				ProcessInitializeOnLoadMethodAttributes (173ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6471 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (0.9 MB). Loaded Objects now: 7079.
+Memory consumption went from 271.4 MB to 270.4 MB.
+Total: 6.114900 ms (FindLiveObjects: 0.528200 ms CreateObjectMapping: 0.493800 ms MarkObjects: 4.785000 ms  DeleteObjects: 0.306700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 31.276967 seconds.
-  path: Assets/Game Make/RunGame/Shader/CurvedSur.shader
-  artifactKey: Guid(276dc42ce41ff7249831bd66587e62b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 21.614490 seconds.
+  path: Assets/Game Make/RunGame/Prefabs/Second Road.prefab
+  artifactKey: Guid(6a410302fe118724c84931d3f16da096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/Shader/CurvedSur.shader using Guid(276dc42ce41ff7249831bd66587e62b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd2f943ab0c17409a4abc343127b299') in 0.006892 seconds 
-Number of asset objects unloaded after import = 1
+Start importing Assets/Game Make/RunGame/Prefabs/Second Road.prefab using Guid(6a410302fe118724c84931d3f16da096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2780ed9e7ae84d5850785a34e4721528') in 0.079050 seconds 
+Number of asset objects unloaded after import = 248
 ========================================================================
 Received Import Request.
-  Time since last request: 39.642568 seconds.
-  path: Assets/Game Make/RunGame/Shader/CurvedSurface.shader
-  artifactKey: Guid(276dc42ce41ff7249831bd66587e62b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 1
-Start importing Assets/Game Make/RunGame/Shader/CurvedSurface.shader using Guid(276dc42ce41ff7249831bd66587e62b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f38dda436a9d294b8cf9777eb7e203') in 0.002256 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 58.997426 seconds.
-  path: Assets/Game Make/RunGame/Shader/CurvedSurface.shader
-  artifactKey: Guid(276dc42ce41ff7249831bd66587e62b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 3.495782 seconds.
+  path: Assets/Game Make/RunGame/Prefabs/Second Road.prefab
+  artifactKey: Guid(6a410302fe118724c84931d3f16da096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/Shader/CurvedSurface.shader using Guid(276dc42ce41ff7249831bd66587e62b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891c77abcba4f1a6a9ad02c211b7a0b2') in 0.002055 seconds 
-Number of asset objects unloaded after import = 1
+Start importing Assets/Game Make/RunGame/Prefabs/Second Road.prefab using Guid(6a410302fe118724c84931d3f16da096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73d70b12c64fc2b26c1b911501e5e39') in 0.022410 seconds 
+Number of asset objects unloaded after import = 217
 ========================================================================
 Received Import Request.
-  Time since last request: 803.939016 seconds.
-  path: Assets/Game Make/RunGame/Shader/CurvedSurface.shader
-  artifactKey: Guid(276dc42ce41ff7249831bd66587e62b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 4.454508 seconds.
+  path: Assets/Game Make/RunGame/Prefabs/Third Road.prefab
+  artifactKey: Guid(5b9f87b86cc51204884c5fb28a75ab39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/Shader/CurvedSurface.shader using Guid(276dc42ce41ff7249831bd66587e62b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c2c7564a0d5e9bbac166453e36b98e') in 0.006509 seconds 
-Number of asset objects unloaded after import = 1
+Start importing Assets/Game Make/RunGame/Prefabs/Third Road.prefab using Guid(5b9f87b86cc51204884c5fb28a75ab39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4568e88a505bce16573a1f85fc70c7') in 0.016240 seconds 
+Number of asset objects unloaded after import = 101
 ========================================================================
 Received Import Request.
-  Time since last request: 44.248345 seconds.
-  path: Assets/Game Make/RunGame/Shader/CurvedSurface.shader
-  artifactKey: Guid(276dc42ce41ff7249831bd66587e62b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 21.873713 seconds.
+  path: Assets/Game Make/RunGame/Prefabs/Road  5.prefab
+  artifactKey: Guid(0aec685e86c9dee4db45817a88d64cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/Shader/CurvedSurface.shader using Guid(276dc42ce41ff7249831bd66587e62b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431a539bd07dc2ab6d3f88af1963679e') in 0.002277 seconds 
-Number of asset objects unloaded after import = 1
+Start importing Assets/Game Make/RunGame/Prefabs/Road  5.prefab using Guid(0aec685e86c9dee4db45817a88d64cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08073cc3578ef5fe7e6bc6e5c1e358e2') in 0.019276 seconds 
+Number of asset objects unloaded after import = 352
 ========================================================================
 Received Import Request.
-  Time since last request: 10.608541 seconds.
-  path: Assets/Game Make/RunGame/Shader/CurvedSurface.shader
-  artifactKey: Guid(276dc42ce41ff7249831bd66587e62b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 3.411586 seconds.
+  path: Assets/Game Make/RunGame/Prefabs/Road  5.prefab
+  artifactKey: Guid(0aec685e86c9dee4db45817a88d64cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/Shader/CurvedSurface.shader using Guid(276dc42ce41ff7249831bd66587e62b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48afbe6ff57dcfc06fa25bf4d229146') in 0.001818 seconds 
-Number of asset objects unloaded after import = 1
+Start importing Assets/Game Make/RunGame/Prefabs/Road  5.prefab using Guid(0aec685e86c9dee4db45817a88d64cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8527dbb57f4490235d5e860e761f7c37') in 0.019587 seconds 
+Number of asset objects unloaded after import = 352
 ========================================================================
 Received Import Request.
-  Time since last request: 7.793361 seconds.
-  path: Assets/Game Make/RunGame/Shader/CurvedSurface.shader
-  artifactKey: Guid(276dc42ce41ff7249831bd66587e62b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 8.978838 seconds.
+  path: Assets/Game Make/RunGame/Prefabs/Road  5.prefab
+  artifactKey: Guid(0aec685e86c9dee4db45817a88d64cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/Shader/CurvedSurface.shader using Guid(276dc42ce41ff7249831bd66587e62b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c74a6f86a5f8c3dc0f5c556f187634c') in 0.001849 seconds 
-Number of asset objects unloaded after import = 1
+Start importing Assets/Game Make/RunGame/Prefabs/Road  5.prefab using Guid(0aec685e86c9dee4db45817a88d64cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dec7347a0daf844484fea3ba8b31ac2') in 0.016045 seconds 
+Number of asset objects unloaded after import = 351
 ========================================================================
 Received Import Request.
-  Time since last request: 44.884718 seconds.
-  path: Assets/Game Make/RunGame/Shader/CurvedSurface.shader
-  artifactKey: Guid(276dc42ce41ff7249831bd66587e62b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 8.963909 seconds.
+  path: Assets/Game Make/RunGame/Prefabs/Road  4.prefab
+  artifactKey: Guid(0e3affae55894374a9a999dfd1a81790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/Shader/CurvedSurface.shader using Guid(276dc42ce41ff7249831bd66587e62b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1932871089be86feeafac098155ab4e5') in 0.002626 seconds 
-Number of asset objects unloaded after import = 1
+Start importing Assets/Game Make/RunGame/Prefabs/Road  4.prefab using Guid(0e3affae55894374a9a999dfd1a81790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e9f809add78633628416112a719afd') in 0.020928 seconds 
+Number of asset objects unloaded after import = 141
 ========================================================================
 Received Import Request.
-  Time since last request: 561.749507 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Gas Station.mat
-  artifactKey: Guid(5008df5fba3101c4c81e4cf6b008c663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 13.940552 seconds.
+  path: Assets/Game Make/RunGame/Prefabs/Road  4.prefab
+  artifactKey: Guid(0e3affae55894374a9a999dfd1a81790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Gas Station.mat using Guid(5008df5fba3101c4c81e4cf6b008c663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08226aab6cf66d45f6eca84ebbaf1e2a') in 0.081112 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/Game Make/RunGame/Prefabs/Road  4.prefab using Guid(0e3affae55894374a9a999dfd1a81790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e02b6b3b528f64e7bfaba7ff1424d2') in 0.014338 seconds 
+Number of asset objects unloaded after import = 140
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Stadium.mat
-  artifactKey: Guid(748bc3a1eddacab499ba4248377c18a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 20.313722 seconds.
+  path: Assets/Game Make/RunGame/Prefabs/Obstrcle/Props_Traffic cone.prefab
+  artifactKey: Guid(52f3bf47c9c62af4588469ff668b805c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Stadium.mat using Guid(748bc3a1eddacab499ba4248377c18a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc88480d9a89b7f9117f0db137d74309') in 0.022011 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/Game Make/RunGame/Prefabs/Obstrcle/Props_Traffic cone.prefab using Guid(52f3bf47c9c62af4588469ff668b805c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d83d633993bc9d7696eb0384c121be') in 0.013235 seconds 
+Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Vehicle_Truck_color01.mat
-  artifactKey: Guid(8d937782c962a9044a28c21514c73ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.002764 seconds.
+  path: Assets/Game Make/RunGame/Prefabs/Obstrcle/Vehicle_Police Car.prefab
+  artifactKey: Guid(1af0a2c8773f85c40bdb120f32cd8a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Vehicle_Truck_color01.mat using Guid(8d937782c962a9044a28c21514c73ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd989b1a25fcb44dcbabeaa4f44dbaec0') in 0.020307 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Props_BillBoard_large.mat
-  artifactKey: Guid(f75e227920ccbc54a86b0f655ddc5b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Props_BillBoard_large.mat using Guid(f75e227920ccbc54a86b0f655ddc5b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7384c813c1d2715cdc769b2bd1a2a7') in 0.022298 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Props_BillBoard_small.mat
-  artifactKey: Guid(dcbee53a8041c594aaf20d616c6ed33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Props_BillBoard_small.mat using Guid(dcbee53a8041c594aaf20d616c6ed33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8b888e8f815632a360f810b9ffc6b9') in 0.013389 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_House_01_color01.mat
-  artifactKey: Guid(d0b99db790965dc40a437662f169eb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_House_01_color01.mat using Guid(d0b99db790965dc40a437662f169eb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912e884e3241ba76ef1c6a35fce1ba3c') in 0.024562 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Vehicle_SUV_color03.mat
-  artifactKey: Guid(66866c7f5319a2d4ab19d87f65b08692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Vehicle_SUV_color03.mat using Guid(66866c7f5319a2d4ab19d87f65b08692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87520fcaf5fa2897d6fcf0376b94fec') in 0.020549 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Residential_color02.mat
-  artifactKey: Guid(032dad8ae2ae60a4b9cb4d7267132a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Residential_color02.mat using Guid(032dad8ae2ae60a4b9cb4d7267132a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf152b984e7a8cf6bd40ca633cc5382d') in 0.021543 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Vehicle_Bus_color01.mat
-  artifactKey: Guid(2851e6469fffc7640a0b1333a9b2519f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Vehicle_Bus_color01.mat using Guid(2851e6469fffc7640a0b1333a9b2519f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1d6ac4c81dc580accc92d9a4a7ed61') in 0.010820 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Super Market.mat
-  artifactKey: Guid(50a5ebe9a8d86a04d8e3b59966418b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Super Market.mat using Guid(50a5ebe9a8d86a04d8e3b59966418b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea7b7d2df409cd11aa144496115c2a5') in 0.020571 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Shoes Shop.mat
-  artifactKey: Guid(25119463e811d3c4c82a0d92a6e1c561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Shoes Shop.mat using Guid(25119463e811d3c4c82a0d92a6e1c561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c70884be17b0e226a4d2bac1f0b47aa') in 0.020133 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_House_04_color01.mat
-  artifactKey: Guid(b5a19d15b0a91e74eacfaf96d03ca2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_House_04_color01.mat using Guid(b5a19d15b0a91e74eacfaf96d03ca2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f241dfa61a60659f661f203c670f89') in 0.019535 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_House_04_color03.mat
-  artifactKey: Guid(ecb113d6169c1ea49ae708ac05a9128c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_House_04_color03.mat using Guid(ecb113d6169c1ea49ae708ac05a9128c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e6841a9ec0e22a7591accc66051e33') in 0.021063 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Vehicle_SUV_color01.mat
-  artifactKey: Guid(c0172b2eebb55f74bbb355a1b1fe0557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Vehicle_SUV_color01.mat using Guid(c0172b2eebb55f74bbb355a1b1fe0557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c5f3832593b3bdf8f56315fec15531') in 0.019484 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Vehicle_Ambulance.mat
-  artifactKey: Guid(fded615538aced440887a3468715a826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Vehicle_Ambulance.mat using Guid(fded615538aced440887a3468715a826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f703116f84203d801c7a5110bb15f9') in 0.022564 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Vehicle_Police Car.mat
-  artifactKey: Guid(ca1eb6db662c95e47b63cb150cf463f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Vehicle_Police Car.mat using Guid(ca1eb6db662c95e47b63cb150cf463f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee4d80de156e81d88e72313b5bfc3f8') in 0.017035 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_House_04_color02.mat
-  artifactKey: Guid(5969c1f4dba612842ac19dbf345dd211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_House_04_color02.mat using Guid(5969c1f4dba612842ac19dbf345dd211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d92480d8f35ff06472f08236fbc3993') in 0.021024 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Restaurant.mat
-  artifactKey: Guid(583621a2a9afaee4c93548c5ac08d4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Restaurant.mat using Guid(583621a2a9afaee4c93548c5ac08d4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00447ad5e8b1880d5f77b0257b48a583') in 0.011636 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Natures.mat
-  artifactKey: Guid(39f651e340882304fa6f21b321d3bea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Natures.mat using Guid(39f651e340882304fa6f21b321d3bea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9055bec2895087a7ac41c86a631746') in 0.019412 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Pizza.mat
-  artifactKey: Guid(98387a5e673a6ab4dbed345505f5ca07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Pizza.mat using Guid(98387a5e673a6ab4dbed345505f5ca07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0552a886e475b065bf0a1884cd4230') in 0.021095 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/Game Make/RunGame/Prefabs/Obstrcle/Vehicle_Police Car.prefab using Guid(1af0a2c8773f85c40bdb120f32cd8a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26c01df77501c4e10e4bcfa98bcfd6a') in 0.017782 seconds 
+Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
   Time since last request: 0.000034 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_House_01_color02.mat
-  artifactKey: Guid(1b289b633b2f4624584f749cf4e5e7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/Game Make/RunGame/Prefabs/Obstrcle/Vehicle_Car_color01.prefab
+  artifactKey: Guid(39ce886a82e0a134cb16fdb5e38dda44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_House_01_color02.mat using Guid(1b289b633b2f4624584f749cf4e5e7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37961df41f736ab9c6b84514c4c026eb') in 0.021877 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Vehicle_Container_color01.mat
-  artifactKey: Guid(992fb1e4bf06a5b488783670728d3f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Vehicle_Container_color01.mat using Guid(992fb1e4bf06a5b488783670728d3f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a23e716bc2ce4a297ecb7bde110e71') in 0.021851 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_House_03_color03.mat
-  artifactKey: Guid(0ee6e621355b5ac4da1102c54fbb63d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_House_03_color03.mat using Guid(0ee6e621355b5ac4da1102c54fbb63d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ee36299c22049ca10342fcaf0f7051') in 0.020194 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Residential_color01.mat
-  artifactKey: Guid(2016355b121a1d141a5a696a5e1a3204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Residential_color01.mat using Guid(2016355b121a1d141a5a696a5e1a3204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9070d2574d5c5ad40b5210b29831926c') in 0.020046 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Vehicle_Car_color03.mat
-  artifactKey: Guid(37608e6988151a248951cdd1a93a59c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Vehicle_Car_color03.mat using Guid(37608e6988151a248951cdd1a93a59c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5ac1836d4a4d9ec4dc86275f609e4c') in 0.009795 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_House_02_color02.mat
-  artifactKey: Guid(b66f907b85259674ca69f1732a632bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_House_02_color02.mat using Guid(b66f907b85259674ca69f1732a632bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf13af8cad2f1599189d66181f76434c') in 0.020369 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Vehicle_Bus_color03.mat
-  artifactKey: Guid(8659c6f38f710284c9a623201882790c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Vehicle_Bus_color03.mat using Guid(8659c6f38f710284c9a623201882790c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005174e2525b6281fcbb8d7946c875f1') in 0.016711 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Residential_color03.mat
-  artifactKey: Guid(503a5bca82bfa754d93ab882c47b76d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Residential_color03.mat using Guid(503a5bca82bfa754d93ab882c47b76d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c94f3fa31dada8045a4e9bb05b4476') in 0.018570 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 6.281180 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Textures/Road.png
-  artifactKey: Guid(444693aeef5a3f147a427cade2b02400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Textures/Road.png using Guid(444693aeef5a3f147a427cade2b02400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c75e286cdadc534177328637ec576d') in 0.021030 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 3.771703 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building Sky_big_color01.mat
-  artifactKey: Guid(0238b0371d23a1b4d98b05c3ff3b4df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building Sky_big_color01.mat using Guid(0238b0371d23a1b4d98b05c3ff3b4df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951fdae07d613f4821829e44fc44782d') in 0.020039 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Bakery.mat
-  artifactKey: Guid(0f42aff1d68094547961d46298d2dba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Bakery.mat using Guid(0f42aff1d68094547961d46298d2dba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b7dd00bc8c0350eaa38c53fc761f4c') in 0.029442 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Fast Food.mat
-  artifactKey: Guid(0c04fafcb420315419fdbbeb0fb78464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Fast Food.mat using Guid(0c04fafcb420315419fdbbeb0fb78464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862b57097c64164c33e5bd645f6f6120') in 0.012854 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Coffee Shop.mat
-  artifactKey: Guid(4967bea7482277d48955ef26a2a50c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Coffee Shop.mat using Guid(4967bea7482277d48955ef26a2a50c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47636637cb74ece01ed34c0b83c6719a') in 0.011504 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/Game Make/RunGame/Prefabs/Obstrcle/Vehicle_Car_color01.prefab using Guid(39ce886a82e0a134cb16fdb5e38dda44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5a1a85a046daccd7398cfd35a454a8') in 0.015161 seconds 
+Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Bar.mat
-  artifactKey: Guid(1a8b38fa8ecb06d4b8eadffe456fd574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/Game Make/RunGame/Prefabs/Obstrcle/Vehicle_Container_color02.prefab
+  artifactKey: Guid(4631315c1fb20074581c662ac9343fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Bar.mat using Guid(1a8b38fa8ecb06d4b8eadffe456fd574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d19d0458edc074410b6d448112a2d87') in 0.022016 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/Game Make/RunGame/Prefabs/Obstrcle/Vehicle_Container_color02.prefab using Guid(4631315c1fb20074581c662ac9343fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517a108507a75125b5c33d0ade6f67cd') in 0.016854 seconds 
+Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Auto Service.mat
-  artifactKey: Guid(38ce9279a60381844a3f6a85bac88a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000015 seconds.
+  path: Assets/Game Make/RunGame/Prefabs/Obstrcle/Vehicle_Truck_color01.prefab
+  artifactKey: Guid(755a67ff6bbc3554d86a5452bf911be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Auto Service.mat using Guid(38ce9279a60381844a3f6a85bac88a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9613845a9355af1e6a4eb6ebd92db1d') in 0.024641 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/Game Make/RunGame/Prefabs/Obstrcle/Vehicle_Truck_color01.prefab using Guid(755a67ff6bbc3554d86a5452bf911be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891fa638b5c8d5ca063d17ea28e29567') in 0.015033 seconds 
+Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building Sky_small_color02.mat
-  artifactKey: Guid(c16376cb5b7e25b429aa618d4386f4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000016 seconds.
+  path: Assets/Game Make/RunGame/Prefabs/Obstrcle/Vehicle_Bus_color03.prefab
+  artifactKey: Guid(c0328285328855649857fb812674281c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building Sky_small_color02.mat using Guid(c16376cb5b7e25b429aa618d4386f4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d1e49434633b3eda16e24baccace65') in 0.024441 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Chicken Shop.mat
-  artifactKey: Guid(d15e38c8ed480004fbb959137225b569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Materials/Building_Chicken Shop.mat using Guid(d15e38c8ed480004fbb959137225b569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ead1cbf3a6470b163a5149ad651e39') in 0.024807 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/Game Make/RunGame/Prefabs/Obstrcle/Vehicle_Bus_color03.prefab using Guid(c0328285328855649857fb812674281c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84606cb8027be9ee9c5780cadeba986') in 0.018106 seconds 
+Number of asset objects unloaded after import = 11
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

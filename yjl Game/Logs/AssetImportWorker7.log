@@ -15,7 +15,7 @@ C:/Users/Administrator/Desktop/Cargame/yjl Game
 -logFile
 Logs/AssetImportWorker7.log
 -srvPort
-49810
+49789
 Successfully changed project path to: C:/Users/Administrator/Desktop/Cargame/yjl Game
 C:/Users/Administrator/Desktop/Cargame/yjl Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/Administrator/Desktop/Cargame/yjl Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1128] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 2846809139 [EditorId] 2846809139 [Version] 1048832 [Id] WindowsEditor(7,I-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4356] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 2057317308 [EditorId] 2057317308 [Version] 1048832 [Id] WindowsEditor(7,I-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [1128] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 2846809139 [EditorId] 2846809139 [Version] 1048832 [Id] WindowsEditor(7,I-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4356] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 2057317308 [EditorId] 2057317308 [Version] 1048832 [Id] WindowsEditor(7,I-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 126.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 118.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -68,95 +68,95 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003609 seconds.
+Registered in 0.003611 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 163 ms
-Refreshing native plugins compatible for Editor in 118.90 ms, found 3 plugins.
+Android Extension - Scanning For ADB Devices 155 ms
+Refreshing native plugins compatible for Editor in 120.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.764 seconds
+- Completed reload, in  0.761 seconds
 Domain Reload Profiling:
-	ReloadAssembly (764ms)
-		BeginReloadAssembly (74ms)
+	ReloadAssembly (762ms)
+		BeginReloadAssembly (75ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (616ms)
-			LoadAssemblies (73ms)
+		EndReloadAssembly (612ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (91ms)
+			SetupTypeCache (90ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (468ms)
+			SetupLoadedEditorAssemblies (465ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (237ms)
+				InitializePlatformSupportModulesInManaged (230ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (119ms)
+				RefreshPlugins (121ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (74ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005042 seconds.
+Registered in 0.005009 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 124.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 117.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.760 seconds
+- Completed reload, in  1.728 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1761ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (1729ms)
+		BeginReloadAssembly (107ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (1571ms)
-			LoadAssemblies (91ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (1536ms)
+			LoadAssemblies (92ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (310ms)
+			SetupTypeCache (287ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (1086ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (1073ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (124ms)
+				RefreshPlugins (118ms)
 				BeforeProcessingInitializeOnLoad (129ms)
-				ProcessInitializeOnLoadAttributes (653ms)
-				ProcessInitializeOnLoadMethodAttributes (160ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (643ms)
+				ProcessInitializeOnLoadMethodAttributes (161ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6598 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (1.0 MB). Loaded Objects now: 7068.
+Unloading 6599 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (1.0 MB). Loaded Objects now: 7069.
 Memory consumption went from 283.4 MB to 282.5 MB.
-Total: 8.208500 ms (FindLiveObjects: 0.492000 ms CreateObjectMapping: 0.483000 ms MarkObjects: 6.893100 ms  DeleteObjects: 0.339700 ms)
+Total: 6.225800 ms (FindLiveObjects: 0.571100 ms CreateObjectMapping: 0.533100 ms MarkObjects: 4.790500 ms  DeleteObjects: 0.330200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -172,84 +172,396 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1266.536758 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Bus_color01_separate.prefab
-  artifactKey: Guid(de535534204e83f4e84497ac553192eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 1209.648892 seconds.
+  path: Assets/Game Make/RunGame/Item/Cable/Icons/Cable_Black.png
+  artifactKey: Guid(d50c38928fa2cba4eac71303b083ffd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Bus_color01_separate.prefab using Guid(de535534204e83f4e84497ac553192eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40a23f9a71d6ac47e106565fe5285bc') in 0.087428 seconds 
-Number of asset objects unloaded after import = 31
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_SUV_color03_separate.prefab
-  artifactKey: Guid(f0ffa104f4ba20b40a0421d7c2b5f098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_SUV_color03_separate.prefab using Guid(f0ffa104f4ba20b40a0421d7c2b5f098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cacf0ea8faea2afb2ddb039452d4de9b') in 0.017341 seconds 
-Number of asset objects unloaded after import = 31
+Start importing Assets/Game Make/RunGame/Item/Cable/Icons/Cable_Black.png using Guid(d50c38928fa2cba4eac71303b083ffd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd772c19139e99cdf6e998776cfe22eec') in 0.189004 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Bus_color02_separate.prefab
-  artifactKey: Guid(3cfde9a41ff096140a1bfec6f262d0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/Game Make/RunGame/Item/Valve/Icons/Icon_Valve.png
+  artifactKey: Guid(fa0f0b3020f645b44aa2527d0725e215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Bus_color02_separate.prefab using Guid(3cfde9a41ff096140a1bfec6f262d0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523b365a27201bbf52a7a291ea557353') in 0.014429 seconds 
-Number of asset objects unloaded after import = 31
+Start importing Assets/Game Make/RunGame/Item/Valve/Icons/Icon_Valve.png using Guid(fa0f0b3020f645b44aa2527d0725e215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ec1c0f0bf44723895bf197f9a39adf') in 0.091396 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Police Car_separate.prefab
-  artifactKey: Guid(a7b60e70606f80245b2f8bc7ce2fadb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000038 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinGreen_00.png
+  artifactKey: Guid(e0d237a6d693d244ab936f97209438d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Police Car_separate.prefab using Guid(a7b60e70606f80245b2f8bc7ce2fadb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735965e56a4925d4817ede9e706a324d') in 0.017296 seconds 
-Number of asset objects unloaded after import = 31
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinGreen_00.png using Guid(e0d237a6d693d244ab936f97209438d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc6eedfd7f47d5f7118cc792750d296') in 0.019597 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Container_color01_separate.prefab
-  artifactKey: Guid(b836817eff26a034bbd13884590ce648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000028 seconds.
+  path: Assets/Animation Bland/Texture/icon.png
+  artifactKey: Guid(29089838bfe0d37408c0bcca91fcc316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Container_color01_separate.prefab using Guid(b836817eff26a034bbd13884590ce648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47303a6b9afbaa99f89acfd567af1ff') in 0.013486 seconds 
-Number of asset objects unloaded after import = 41
+Start importing Assets/Animation Bland/Texture/icon.png using Guid(29089838bfe0d37408c0bcca91fcc316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a071df0de918ace348a78264d9cc60') in 0.126935 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_SUV_color01_separate.prefab
-  artifactKey: Guid(1dabf884aa0716149a1bc775f0b620d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000023 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinPurple_00.png
+  artifactKey: Guid(a8b2dd49f82df4243b372efd8a053dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_SUV_color01_separate.prefab using Guid(1dabf884aa0716149a1bc775f0b620d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd85afd7b9baa7d171ad446554e1508') in 0.012916 seconds 
-Number of asset objects unloaded after import = 31
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinPurple_00.png using Guid(a8b2dd49f82df4243b372efd8a053dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33b7ca65fb908a8348c52426178155f') in 0.020188 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Container_color02_separate.prefab
-  artifactKey: Guid(025a3497fa872fe4ebfed7edb8eb310c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000026 seconds.
+  path: Assets/Game Make/RunGame/Item/Card/Icons/Icon_Card_GateSystemBlue.png
+  artifactKey: Guid(3ecf563d7dfc35647bf05fe4633a0062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Container_color02_separate.prefab using Guid(025a3497fa872fe4ebfed7edb8eb310c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947b934002b5e6f34ece51cbbf7601a4') in 0.013629 seconds 
-Number of asset objects unloaded after import = 41
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_SUV_color02_separate.prefab
-  artifactKey: Guid(a7cd9ad30e9d4c146986aa1e6694b9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_SUV_color02_separate.prefab using Guid(a7cd9ad30e9d4c146986aa1e6694b9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36745c0b708b52d85bdc04c248a418b') in 0.014464 seconds 
-Number of asset objects unloaded after import = 31
+Start importing Assets/Game Make/RunGame/Item/Card/Icons/Icon_Card_GateSystemBlue.png using Guid(3ecf563d7dfc35647bf05fe4633a0062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d02d64ac5bdcf039c6b3785af5126de') in 0.077807 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Pick up Truck_color03_separate.prefab
-  artifactKey: Guid(675baac8bae68964e948aabc6ff2857c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/Game Make/RunGame/Item/Gear/Icons/Icon_Gear.png
+  artifactKey: Guid(2e7ac424d2d6fd9409c61113863dac08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Pick up Truck_color03_separate.prefab using Guid(675baac8bae68964e948aabc6ff2857c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81d6875f85977e208fd6332150f28f7') in 0.016048 seconds 
-Number of asset objects unloaded after import = 31
+Start importing Assets/Game Make/RunGame/Item/Gear/Icons/Icon_Gear.png using Guid(2e7ac424d2d6fd9409c61113863dac08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4a6c70279b6960337422b6f8f56a6c') in 0.087340 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Game Make/RunGame/Item/USBKey/Icons/Icon_USBKey_Yellow.png
+  artifactKey: Guid(5346b48a3aa933146b22338ec3fd768a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Item/USBKey/Icons/Icon_USBKey_Yellow.png using Guid(5346b48a3aa933146b22338ec3fd768a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1d258cc10e5999a398b9114c8308b1') in 0.069844 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Game Make/RunGame/Item/Card/Icons/Icon_Card_GateSystemRed.png
+  artifactKey: Guid(73a351ee1a6ffe84791f3ba0714df6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Item/Card/Icons/Icon_Card_GateSystemRed.png using Guid(73a351ee1a6ffe84791f3ba0714df6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc02ea77945b26104a31189f4d193966') in 0.067715 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Animation/Texture/Question.png
+  artifactKey: Guid(8de7bfb8abc5b9e49869b889aef15917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/Texture/Question.png using Guid(8de7bfb8abc5b9e49869b889aef15917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea842d7f227dbe4d6cd5198bbf8cd6a3') in 0.048932 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Game Make/RunGame/Item/Battery/Icons/Icon_Battery_C.png
+  artifactKey: Guid(d15102e1826bf5b428bb87eb66a9daef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Item/Battery/Icons/Icon_Battery_C.png using Guid(d15102e1826bf5b428bb87eb66a9daef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd998fc4518e0baebc4fa58eb572c172') in 0.080769 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Game Make/RunGame/Item/Floppy/Icons/Icon_Floopy_Red.png
+  artifactKey: Guid(2c2a4ae8c8f95f246acf319ca4c4df3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Item/Floppy/Icons/Icon_Floopy_Red.png using Guid(2c2a4ae8c8f95f246acf319ca4c4df3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a5befe7eb2fe2efca6e93da6d83f7c') in 0.080000 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.631660 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_HeartPurple_00.png
+  artifactKey: Guid(accc512d8b38f394aa4cf98b48739728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_HeartPurple_00.png using Guid(accc512d8b38f394aa4cf98b48739728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c42b5310e88967b0df15aaccca251c') in 0.021378 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarBlue_00.png
+  artifactKey: Guid(37636ce6276d5fb41972b2da4df42cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarBlue_00.png using Guid(37636ce6276d5fb41972b2da4df42cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e499f4af17e47c384ce19742608a0c69') in 0.019358 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.024555 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarGreen_01.png
+  artifactKey: Guid(b11b9cfda6a1c3e40bbfc86f6679be30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarGreen_01.png using Guid(b11b9cfda6a1c3e40bbfc86f6679be30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49dd5ef2f4f78b19490eea638425012a') in 0.022076 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
-  path: Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Bus_color03_separate.prefab
-  artifactKey: Guid(e1697ef5073defa458e40968ffff2b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarPurple_00.png
+  artifactKey: Guid(f0c791a61d836134ebacb8eed2c6c122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Bus_color03_separate.prefab using Guid(e1697ef5073defa458e40968ffff2b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a551c43418045970339fc3cd8ae39d4b') in 0.013758 seconds 
-Number of asset objects unloaded after import = 31
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarPurple_00.png using Guid(f0c791a61d836134ebacb8eed2c6c122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604c1af3b0b5b9be728b13a4351168d0') in 0.022640 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGold_00.png
+  artifactKey: Guid(bfe2172ea6d8548459c72a978878c238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGold_00.png using Guid(bfe2172ea6d8548459c72a978878c238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c225fb78bf90046f450e25919684f06') in 0.021741 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarRed_00.png
+  artifactKey: Guid(696f52c7965f17746a01941fdbb0b1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarRed_00.png using Guid(696f52c7965f17746a01941fdbb0b1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b5021823b8b2c8b041bf056323aa39') in 0.018176 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.219998 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionPurple_00.png
+  artifactKey: Guid(40ec6c6ab3fa68a478a5092ae1598716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionPurple_00.png using Guid(40ec6c6ab3fa68a478a5092ae1598716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73aee0c15822d4bd71a8255d31ca0690') in 0.023349 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionPurple_02.png
+  artifactKey: Guid(6edd092ef6bfd8445b7c4fc81d9c240c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionPurple_02.png using Guid(6edd092ef6bfd8445b7c4fc81d9c240c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a186cdef307a99f85cd6694ebf7e064d') in 0.024554 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_BarrelRed_00.png
+  artifactKey: Guid(87a348abb5bb3b04a994fbe576c7382e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_BarrelRed_00.png using Guid(87a348abb5bb3b04a994fbe576c7382e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b322cccc77bd2e942d6a4fec4226a91') in 0.024561 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.343875 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_ChestPurple_00.png
+  artifactKey: Guid(9ae73cc8499d92b4cadf5de943bbfc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_ChestPurple_00.png using Guid(9ae73cc8499d92b4cadf5de943bbfc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3ad443f25efdd0b8f2dcd670b752b9') in 0.023953 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_HeartBlue_00.png
+  artifactKey: Guid(150281c69eb43b94b9c15cae75464a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_HeartBlue_00.png using Guid(150281c69eb43b94b9c15cae75464a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5a8094dedb17e75c6cc25ccce21506') in 0.023263 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_CoinRed_00.png
+  artifactKey: Guid(4ca860b8f3d16674984a376c1401a32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_CoinRed_00.png using Guid(4ca860b8f3d16674984a376c1401a32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980ed056f994ffeb6279b97e487b5cc5') in 0.022126 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_HeartGold_00.png
+  artifactKey: Guid(e54c6acda6f477d4e98b6e6068d68226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_HeartGold_00.png using Guid(e54c6acda6f477d4e98b6e6068d68226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80bfadc6652bc3b62aca11e24f1c7264') in 0.021876 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarGreen_01.png
+  artifactKey: Guid(ebbd9788d7d24684cb34b55dad9c1a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarGreen_01.png using Guid(ebbd9788d7d24684cb34b55dad9c1a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2524e58b2dacc21861848d0865da29') in 0.022925 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarPurple_00.png
+  artifactKey: Guid(164454aea5868df45a0cc455f18b5b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarPurple_00.png using Guid(164454aea5868df45a0cc455f18b5b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7252ad99c6688025566814b33a91199a') in 0.021548 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarRed_01.png
+  artifactKey: Guid(3bb4f6230f817c24485cea9e9511dae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarRed_01.png using Guid(3bb4f6230f817c24485cea9e9511dae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ceb3ee3c4a1d75afac2c5660d41202') in 0.021923 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.268066 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGreen_00.png
+  artifactKey: Guid(c942500109f791240adb75c331ecbe90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGreen_00.png using Guid(c942500109f791240adb75c331ecbe90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45a3ff732764f2fdd97c898ca4dd193') in 0.024635 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/No Outline/S_ItemNoOutline_BarrelBlue_00.png
+  artifactKey: Guid(f723f733b9289b5489cab1fac4d6a1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/No Outline/S_ItemNoOutline_BarrelBlue_00.png using Guid(f723f733b9289b5489cab1fac4d6a1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db8dba8d0a73372d82c94f09e091f8f') in 0.022351 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionPurple_00.png
+  artifactKey: Guid(85fe961d8b8fb094584962eecb48d07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionPurple_00.png using Guid(85fe961d8b8fb094584962eecb48d07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3979748e747d2554698979418ac5e2a') in 0.022899 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionRed_02.png
+  artifactKey: Guid(484d636c982787d449589fb4a567d0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionRed_02.png using Guid(484d636c982787d449589fb4a567d0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4b47d7484cf47cf5621285b9f3c0b3') in 0.019846 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/No Outline/S_ItemNoOutline_ChestBlue_00.png
+  artifactKey: Guid(8c834f188ef92ce438b51292419b06e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/No Outline/S_ItemNoOutline_ChestBlue_00.png using Guid(8c834f188ef92ce438b51292419b06e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df8446048fa1c13a362fd3c6803bae6') in 0.024257 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.019654 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/No Outline/S_ItemNoOutline_ChestRed_00.png
+  artifactKey: Guid(d374c104b2b43c5449b430081e3d117e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/No Outline/S_ItemNoOutline_ChestRed_00.png using Guid(d374c104b2b43c5449b430081e3d117e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38b035eba1f8f974302a70cd3b798c4') in 0.025298 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/No Outline/S_ItemNoOutline_CoinBlue_00.png
+  artifactKey: Guid(e51331a95da8f4c4f93a1172063345fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/No Outline/S_ItemNoOutline_CoinBlue_00.png using Guid(e51331a95da8f4c4f93a1172063345fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec57bc501cdc9bfe76d2df618d123a8') in 0.025748 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.172340 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/No Outline/S_ItemNoOutline_HeartRed_00.png
+  artifactKey: Guid(23565949412127044ace543e892409b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/No Outline/S_ItemNoOutline_HeartRed_00.png using Guid(23565949412127044ace543e892409b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf9b5fe9ed24bc6b32d5318f2b63378') in 0.023763 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarRed_00.png
+  artifactKey: Guid(413ae5c9fe6b4c445bfc77e851512311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarRed_00.png using Guid(413ae5c9fe6b4c445bfc77e851512311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4004bb934229b26811391eb32db744b8') in 0.023025 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarGreen_01.png
+  artifactKey: Guid(fa9e99d9fa0d8f149b3e06163338283d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarGreen_01.png using Guid(fa9e99d9fa0d8f149b3e06163338283d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff25a06164f3bf3d6ea332937dc8cb5') in 0.021913 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGold_01.png
+  artifactKey: Guid(d025807e31d980c4db269d7f9f094bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGold_01.png using Guid(d025807e31d980c4db269d7f9f094bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4efb9809d7cb0f5053179905d02fde6') in 0.022672 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGreen_00.png
+  artifactKey: Guid(94d06af37f640cb46abbec58f544e4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGreen_00.png using Guid(94d06af37f640cb46abbec58f544e4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b9ab93d650c1d7c8a134640c55aee9') in 0.024307 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGold_02.png
+  artifactKey: Guid(955f66ab17993b74eae3a0c8a446d007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGold_02.png using Guid(955f66ab17993b74eae3a0c8a446d007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0137d3b71e9039182c21144ad2b60c49') in 0.019065 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.213792 seconds.
+  path: Assets/Game Make/RunGame/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionPurple_01.png
+  artifactKey: Guid(1db171dfa076c734ea11134720a7609d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionPurple_01.png using Guid(1db171dfa076c734ea11134720a7609d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13883f07a092c6c22a1cc8430cb7f07f') in 0.025157 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.048187 seconds.
+  path: Assets/Game Make/RunGame/Kawaii_Tanks_Project (Free)/Sprites/Sprite_Aim_Marker.png
+  artifactKey: Guid(e03098c57289953479b38f41112b9271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Kawaii_Tanks_Project (Free)/Sprites/Sprite_Aim_Marker.png using Guid(e03098c57289953479b38f41112b9271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c70e1c68a18672b9dc11d603ef7eb4') in 0.025910 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Game Make/RunGame/Kawaii_Tanks_Project (Free)/Sprites/Sprite_Button_01.png
+  artifactKey: Guid(275ff55f9b760a440bda5911b0f6d1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Kawaii_Tanks_Project (Free)/Sprites/Sprite_Button_01.png using Guid(275ff55f9b760a440bda5911b0f6d1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9cf83900aff4d51a74058cfdca18a7') in 0.031928 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Instatiatr&Destroy/Battle Game/RPG Unitframe #1/img/uf_bar_sm_tonus.png
+  artifactKey: Guid(3f0defd9ddd8fea4f8512cf591ff2bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Instatiatr&Destroy/Battle Game/RPG Unitframe #1/img/uf_bar_sm_tonus.png using Guid(3f0defd9ddd8fea4f8512cf591ff2bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac9c843024102049e57d37adc94623b') in 0.022451 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Instatiatr&Destroy/Battle Game/RPG Unitframe #1/img/uf_level_simple.png
+  artifactKey: Guid(8c9efb6355add18458a9b2b17beed3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Instatiatr&Destroy/Battle Game/RPG Unitframe #1/img/uf_level_simple.png using Guid(8c9efb6355add18458a9b2b17beed3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7035f81d415a1e293ec8f424c655e7a') in 0.023082 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Instatiatr&Destroy/Battle Game/RPG Unitframe #1/img/uf_bg_simple.png
+  artifactKey: Guid(c181dc8dffc578949a4c37408c51489e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Instatiatr&Destroy/Battle Game/RPG Unitframe #1/img/uf_bg_simple.png using Guid(c181dc8dffc578949a4c37408c51489e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b259fca91ec3786c0196c7b2759417a') in 0.045273 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Instatiatr&Destroy/Battle Game/RPG Unitframe #1/img/uf_frame_mask.png
+  artifactKey: Guid(0c39c31525591a44db3f44e321868e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Instatiatr&Destroy/Battle Game/RPG Unitframe #1/img/uf_frame_mask.png using Guid(0c39c31525591a44db3f44e321868e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5941c757b89301f1fe555a20f993e0b') in 0.042224 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Instatiatr&Destroy/Battle Game/RPG Unitframe #1/img/uf_frame_userpic_mask.png
+  artifactKey: Guid(7be20e2828f3e9e45a897a6f6332e774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Instatiatr&Destroy/Battle Game/RPG Unitframe #1/img/uf_frame_userpic_mask.png using Guid(7be20e2828f3e9e45a897a6f6332e774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0e1354b8313ea17f86060a6754a652') in 0.031284 seconds 
+Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

@@ -452,6 +452,7 @@
 "Assets/Game Make/RunGame/Script/Items/Item.cs"
 "Assets/Game Make/RunGame/Script/Items/Magenet.cs"
 "Assets/Game Make/RunGame/Script/Items/Percentage.cs"
+"Assets/Game Make/RunGame/Script/Manager/audioManager.cs"
 "Assets/Game Make/RunGame/Script/Manager/AudioManager1.cs"
 "Assets/Game Make/RunGame/Script/Manager/ButtonManager.cs"
 "Assets/Game Make/RunGame/Script/Manager/CoinManager.cs"

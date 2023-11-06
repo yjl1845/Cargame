@@ -15,7 +15,7 @@ C:/Users/Administrator/Desktop/Cargame/yjl Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49810
+49789
 Successfully changed project path to: C:/Users/Administrator/Desktop/Cargame/yjl Game
 C:/Users/Administrator/Desktop/Cargame/yjl Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/Administrator/Desktop/Cargame/yjl Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9748] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 2576508347 [EditorId] 2576508347 [Version] 1048832 [Id] WindowsEditor(7,I-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12344] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 340379748 [EditorId] 340379748 [Version] 1048832 [Id] WindowsEditor(7,I-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [9748] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 2576508347 [EditorId] 2576508347 [Version] 1048832 [Id] WindowsEditor(7,I-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12344] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 340379748 [EditorId] 340379748 [Version] 1048832 [Id] WindowsEditor(7,I-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 236.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 114.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -68,81 +68,81 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003548 seconds.
+Registered in 0.003770 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1210 ms
-Refreshing native plugins compatible for Editor in 112.27 ms, found 3 plugins.
+Android Extension - Scanning For ADB Devices 169 ms
+Refreshing native plugins compatible for Editor in 117.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.811 seconds
+- Completed reload, in  0.763 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1811ms)
-		BeginReloadAssembly (82ms)
+	ReloadAssembly (764ms)
+		BeginReloadAssembly (79ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1656ms)
-			LoadAssemblies (81ms)
+		EndReloadAssembly (611ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (92ms)
+			SetupTypeCache (89ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (1507ms)
+			SetupLoadedEditorAssemblies (465ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (1282ms)
+				InitializePlatformSupportModulesInManaged (240ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (112ms)
+				RefreshPlugins (117ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (71ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				ProcessInitializeOnLoadAttributes (68ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005453 seconds.
+Registered in 0.005255 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 120.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 115.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.825 seconds
+- Completed reload, in  1.733 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1826ms)
-		BeginReloadAssembly (123ms)
+	ReloadAssembly (1734ms)
+		BeginReloadAssembly (107ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (1595ms)
-			LoadAssemblies (107ms)
+		EndReloadAssembly (1544ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (305ms)
+			SetupTypeCache (288ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (1095ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (1072ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (120ms)
-				BeforeProcessingInitializeOnLoad (137ms)
-				ProcessInitializeOnLoadAttributes (664ms)
-				ProcessInitializeOnLoadMethodAttributes (153ms)
+				RefreshPlugins (115ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (661ms)
+				ProcessInitializeOnLoadMethodAttributes (148ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -153,37 +153,10 @@ Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
 Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6598 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (1.0 MB). Loaded Objects now: 7068.
+Unloading 6599 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (1.0 MB). Loaded Objects now: 7069.
 Memory consumption went from 283.4 MB to 282.5 MB.
-Total: 6.136400 ms (FindLiveObjects: 0.564100 ms CreateObjectMapping: 0.531400 ms MarkObjects: 4.710800 ms  DeleteObjects: 0.329100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 130.807849 seconds.
-  path: Assets/Game Make/RunGame/Prefabs/Road  4.prefab
-  artifactKey: Guid(0e3affae55894374a9a999dfd1a81790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/Prefabs/Road  4.prefab using Guid(0e3affae55894374a9a999dfd1a81790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb6f71e6852d764a5969f6fc8ad2066') in 0.115181 seconds 
-Number of asset objects unloaded after import = 142
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 7.23 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 58 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 58 unused Assets / (0.9 MB). Loaded Objects now: 7077.
-Memory consumption went from 142.4 MB to 141.5 MB.
-Total: 6.737000 ms (FindLiveObjects: 0.521000 ms CreateObjectMapping: 0.565700 ms MarkObjects: 5.306900 ms  DeleteObjects: 0.342500 ms)
+Total: 7.564200 ms (FindLiveObjects: 0.517000 ms CreateObjectMapping: 0.486300 ms MarkObjects: 6.157700 ms  DeleteObjects: 0.401900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -199,67 +172,75 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.422601 seconds.
-  path: Assets/Game Make/RunGame/Prefabs/First Road.prefab
-  artifactKey: Guid(523d002a8ca6da74db650d0cee9a93ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 405.206203 seconds.
+  path: Assets/Game Make/RunGame/Script/Manager/GameManager.cs
+  artifactKey: Guid(3d6984122502f6a4a80c5207b34bc9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/Prefabs/First Road.prefab using Guid(523d002a8ca6da74db650d0cee9a93ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965cbbb104f5e8d5505698b840c7e4c4') in 0.029086 seconds 
-Number of asset objects unloaded after import = 234
+Start importing Assets/Game Make/RunGame/Script/Manager/GameManager.cs using Guid(3d6984122502f6a4a80c5207b34bc9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef887bcd6b4c44e1d120648034d0353') in 0.029570 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 5.739338 seconds.
-  path: Assets/Game Make/RunGame/Prefabs/First Road.prefab
-  artifactKey: Guid(523d002a8ca6da74db650d0cee9a93ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 24.755296 seconds.
+  path: Assets/Game Make/RunGame/Script/PlayerControll.cs
+  artifactKey: Guid(0fa59d1b1aff8674fa7403b7035ddd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/Prefabs/First Road.prefab using Guid(523d002a8ca6da74db650d0cee9a93ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab01270547d1019f4b3ca7435a74b0c') in 0.020397 seconds 
-Number of asset objects unloaded after import = 233
+Start importing Assets/Game Make/RunGame/Script/PlayerControll.cs using Guid(0fa59d1b1aff8674fa7403b7035ddd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb489b541435554e8df56fa54651e6c6') in 0.007063 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 405.087364 seconds.
+  path: Assets/Game Make/RunGame/New Folder
+  artifactKey: Guid(5822535b45c966d47a7f46c967a00622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/New Folder using Guid(5822535b45c966d47a7f46c967a00622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77af001f42cffd7e290bcad945c8ce9b') in 0.006132 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006595 seconds.
+Registered in 0.004589 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.659 seconds
+- Completed reload, in  1.900 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1660ms)
-		BeginReloadAssembly (146ms)
+	ReloadAssembly (1900ms)
+		BeginReloadAssembly (223ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1437ms)
-			LoadAssemblies (102ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1605ms)
+			LoadAssemblies (168ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (340ms)
+			SetupTypeCache (565ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (896ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (853ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (105ms)
-				ProcessInitializeOnLoadAttributes (595ms)
-				ProcessInitializeOnLoadMethodAttributes (173ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (562ms)
+				ProcessInitializeOnLoadMethodAttributes (159ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (26ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6471 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (0.9 MB). Loaded Objects now: 7079.
-Memory consumption went from 271.4 MB to 270.4 MB.
-Total: 6.114900 ms (FindLiveObjects: 0.528200 ms CreateObjectMapping: 0.493800 ms MarkObjects: 4.785000 ms  DeleteObjects: 0.306700 ms)
+Unloading 6472 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (0.9 MB). Loaded Objects now: 7072.
+Memory consumption went from 271.2 MB to 270.2 MB.
+Total: 6.481600 ms (FindLiveObjects: 0.550100 ms CreateObjectMapping: 0.595400 ms MarkObjects: 4.971000 ms  DeleteObjects: 0.364400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -275,116 +256,420 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.614490 seconds.
-  path: Assets/Game Make/RunGame/Prefabs/Second Road.prefab
-  artifactKey: Guid(6a410302fe118724c84931d3f16da096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 36.071961 seconds.
+  path: Assets/ArcadeGameBGM#3/ArcadeGameBGM#3_Full.wav
+  artifactKey: Guid(8184d0b9c17cfda4bafa3be04f59dcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/Prefabs/Second Road.prefab using Guid(6a410302fe118724c84931d3f16da096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2780ed9e7ae84d5850785a34e4721528') in 0.079050 seconds 
-Number of asset objects unloaded after import = 248
+Start importing Assets/ArcadeGameBGM#3/ArcadeGameBGM#3_Full.wav using Guid(8184d0b9c17cfda4bafa3be04f59dcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1920caee3efd532a9eb03a6b5deb5cba') in 0.138853 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 3.495782 seconds.
-  path: Assets/Game Make/RunGame/Prefabs/Second Road.prefab
-  artifactKey: Guid(6a410302fe118724c84931d3f16da096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 8.018684 seconds.
+  path: Assets/Game Make/RunGame/Sound
+  artifactKey: Guid(cf58843b795a30a4495a1132b027452c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/Prefabs/Second Road.prefab using Guid(6a410302fe118724c84931d3f16da096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73d70b12c64fc2b26c1b911501e5e39') in 0.022410 seconds 
-Number of asset objects unloaded after import = 217
+Start importing Assets/Game Make/RunGame/Sound using Guid(cf58843b795a30a4495a1132b027452c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad483807c610dd431689d822ac23c4ee') in 0.001433 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 4.454508 seconds.
-  path: Assets/Game Make/RunGame/Prefabs/Third Road.prefab
-  artifactKey: Guid(5b9f87b86cc51204884c5fb28a75ab39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.045199 seconds.
+  path: Assets/Game Make/RunGame/Sound/Army Trumpet.wav
+  artifactKey: Guid(327a516fbded65a41b3938a7be77583a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/Prefabs/Third Road.prefab using Guid(5b9f87b86cc51204884c5fb28a75ab39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4568e88a505bce16573a1f85fc70c7') in 0.016240 seconds 
-Number of asset objects unloaded after import = 101
+Start importing Assets/Game Make/RunGame/Sound/Army Trumpet.wav using Guid(327a516fbded65a41b3938a7be77583a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a066dd0805995a222adcc181e27608') in 0.018006 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 21.873713 seconds.
-  path: Assets/Game Make/RunGame/Prefabs/Road  5.prefab
-  artifactKey: Guid(0aec685e86c9dee4db45817a88d64cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game Make/RunGame/Sound/Bell Hits.wav
+  artifactKey: Guid(4da067ad457f5f84286871568c74468b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/Prefabs/Road  5.prefab using Guid(0aec685e86c9dee4db45817a88d64cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08073cc3578ef5fe7e6bc6e5c1e358e2') in 0.019276 seconds 
-Number of asset objects unloaded after import = 352
+Start importing Assets/Game Make/RunGame/Sound/Bell Hits.wav using Guid(4da067ad457f5f84286871568c74468b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d3a5989fde5222f3b6ea8b43e9081f') in 0.020978 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 3.411586 seconds.
-  path: Assets/Game Make/RunGame/Prefabs/Road  5.prefab
-  artifactKey: Guid(0aec685e86c9dee4db45817a88d64cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000040 seconds.
+  path: Assets/Game Make/RunGame/Sound/Deep Error.wav
+  artifactKey: Guid(b5b6d5dbf5057e74d940d473d551949a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/Prefabs/Road  5.prefab using Guid(0aec685e86c9dee4db45817a88d64cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8527dbb57f4490235d5e860e761f7c37') in 0.019587 seconds 
-Number of asset objects unloaded after import = 352
-========================================================================
-Received Import Request.
-  Time since last request: 8.978838 seconds.
-  path: Assets/Game Make/RunGame/Prefabs/Road  5.prefab
-  artifactKey: Guid(0aec685e86c9dee4db45817a88d64cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/Prefabs/Road  5.prefab using Guid(0aec685e86c9dee4db45817a88d64cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dec7347a0daf844484fea3ba8b31ac2') in 0.016045 seconds 
-Number of asset objects unloaded after import = 351
-========================================================================
-Received Import Request.
-  Time since last request: 8.963909 seconds.
-  path: Assets/Game Make/RunGame/Prefabs/Road  4.prefab
-  artifactKey: Guid(0e3affae55894374a9a999dfd1a81790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/Prefabs/Road  4.prefab using Guid(0e3affae55894374a9a999dfd1a81790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e9f809add78633628416112a719afd') in 0.020928 seconds 
-Number of asset objects unloaded after import = 141
-========================================================================
-Received Import Request.
-  Time since last request: 13.940552 seconds.
-  path: Assets/Game Make/RunGame/Prefabs/Road  4.prefab
-  artifactKey: Guid(0e3affae55894374a9a999dfd1a81790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/Prefabs/Road  4.prefab using Guid(0e3affae55894374a9a999dfd1a81790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e02b6b3b528f64e7bfaba7ff1424d2') in 0.014338 seconds 
-Number of asset objects unloaded after import = 140
-========================================================================
-Received Import Request.
-  Time since last request: 20.313722 seconds.
-  path: Assets/Game Make/RunGame/Prefabs/Obstrcle/Props_Traffic cone.prefab
-  artifactKey: Guid(52f3bf47c9c62af4588469ff668b805c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/Prefabs/Obstrcle/Props_Traffic cone.prefab using Guid(52f3bf47c9c62af4588469ff668b805c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d83d633993bc9d7696eb0384c121be') in 0.013235 seconds 
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.002764 seconds.
-  path: Assets/Game Make/RunGame/Prefabs/Obstrcle/Vehicle_Police Car.prefab
-  artifactKey: Guid(1af0a2c8773f85c40bdb120f32cd8a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/Prefabs/Obstrcle/Vehicle_Police Car.prefab using Guid(1af0a2c8773f85c40bdb120f32cd8a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26c01df77501c4e10e4bcfa98bcfd6a') in 0.017782 seconds 
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Game Make/RunGame/Prefabs/Obstrcle/Vehicle_Car_color01.prefab
-  artifactKey: Guid(39ce886a82e0a134cb16fdb5e38dda44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/Prefabs/Obstrcle/Vehicle_Car_color01.prefab using Guid(39ce886a82e0a134cb16fdb5e38dda44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5a1a85a046daccd7398cfd35a454a8') in 0.015161 seconds 
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Game Make/RunGame/Prefabs/Obstrcle/Vehicle_Container_color02.prefab
-  artifactKey: Guid(4631315c1fb20074581c662ac9343fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/Prefabs/Obstrcle/Vehicle_Container_color02.prefab using Guid(4631315c1fb20074581c662ac9343fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517a108507a75125b5c33d0ade6f67cd') in 0.016854 seconds 
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Game Make/RunGame/Prefabs/Obstrcle/Vehicle_Truck_color01.prefab
-  artifactKey: Guid(755a67ff6bbc3554d86a5452bf911be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/Prefabs/Obstrcle/Vehicle_Truck_color01.prefab using Guid(755a67ff6bbc3554d86a5452bf911be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891fa638b5c8d5ca063d17ea28e29567') in 0.015033 seconds 
-Number of asset objects unloaded after import = 11
+Start importing Assets/Game Make/RunGame/Sound/Deep Error.wav using Guid(b5b6d5dbf5057e74d940d473d551949a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9161b6d77e593b4997628807b378608') in 0.016664 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Game Make/RunGame/Prefabs/Obstrcle/Vehicle_Bus_color03.prefab
-  artifactKey: Guid(c0328285328855649857fb812674281c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/Game Make/RunGame/Sound/Fairy Tale Magic Spell.wav
+  artifactKey: Guid(7a0619234efad4d489c7d6831a176908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Game Make/RunGame/Prefabs/Obstrcle/Vehicle_Bus_color03.prefab using Guid(c0328285328855649857fb812674281c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84606cb8027be9ee9c5780cadeba986') in 0.018106 seconds 
-Number of asset objects unloaded after import = 11
+Start importing Assets/Game Make/RunGame/Sound/Fairy Tale Magic Spell.wav using Guid(7a0619234efad4d489c7d6831a176908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d0ea4f2dbd9fbfa1588df20bae8c44') in 0.015724 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Game Make/RunGame/Sound/Confirm.wav
+  artifactKey: Guid(659a79ce0eebccf448850a7c6d401983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Confirm.wav using Guid(659a79ce0eebccf448850a7c6d401983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6199c0cb9f986a218fd544477348d4') in 0.016166 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game Make/RunGame/Sound/Game Highlight.wav
+  artifactKey: Guid(d56a2a4c80b44b049943a4eb29fddb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Game Highlight.wav using Guid(d56a2a4c80b44b049943a4eb29fddb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f10b95d37b3ca726cd0fdd1c1fa1c4') in 0.017366 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Game Make/RunGame/Sound/Saxophone.wav
+  artifactKey: Guid(00e0bde4de5b190448bf79c37fc39905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Saxophone.wav using Guid(00e0bde4de5b190448bf79c37fc39905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0fdce15beeb556a1b73e31d60c2311') in 0.015169 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Game Make/RunGame/Sound/Sparkling Bonus.wav
+  artifactKey: Guid(26bcacf1c33937040a74e130d37a34fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Sparkling Bonus.wav using Guid(26bcacf1c33937040a74e130d37a34fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813095be3b0b8f37d6ae9044945dac5d') in 0.022172 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Game Make/RunGame/Sound/Positive Alert.wav
+  artifactKey: Guid(fe3fdbb87abc886468df1522b457ab0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Positive Alert.wav using Guid(fe3fdbb87abc886468df1522b457ab0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4818687700496d070a380a62b6910ab') in 0.015026 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Game Make/RunGame/Sound/Game Countdown.wav
+  artifactKey: Guid(82c28e65ee9ad3444ba234b94b6725e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Game Countdown.wav using Guid(82c28e65ee9ad3444ba234b94b6725e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9c4e760a91f63965a5ad5f224531b1') in 0.014531 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Game Make/RunGame/Sound/Fast Deep Woosh.wav
+  artifactKey: Guid(1071871be4e767b42b5a2da1db2db847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Fast Deep Woosh.wav using Guid(1071871be4e767b42b5a2da1db2db847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10ec58ccdeb76f1686423154ba09be9') in 0.015598 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Game Make/RunGame/Sound/Points Earned.wav
+  artifactKey: Guid(815d4a6099ebe184fb878bdb02ddd8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Points Earned.wav using Guid(815d4a6099ebe184fb878bdb02ddd8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd187a98b9e366b3755b564365b240ea8') in 0.022692 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Game Make/RunGame/Sound/Small Win.wav
+  artifactKey: Guid(ae4440b05ef1f204d844169cfdafd529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Small Win.wav using Guid(ae4440b05ef1f204d844169cfdafd529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b60b3c9a3d0da83ea9080b9cced49ae') in 0.021384 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game Make/RunGame/Sound/Medieval Smooth Arpeggio.wav
+  artifactKey: Guid(3b6783fde648c0c43a9dcf384b8c7e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Medieval Smooth Arpeggio.wav using Guid(3b6783fde648c0c43a9dcf384b8c7e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa42b8b7ab1a2bb827a0d7639f74905') in 0.022531 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Game Make/RunGame/Sound/Star.wav
+  artifactKey: Guid(f8a7881abf1dacb49b63d5bf721c3109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Star.wav using Guid(f8a7881abf1dacb49b63d5bf721c3109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3f7c922ab9d7600b6e04ea24c3b066') in 0.019764 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Game Make/RunGame/Sound/Medieval Game Harp.wav
+  artifactKey: Guid(448afc40a23134b449eb62ef09defc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Medieval Game Harp.wav using Guid(448afc40a23134b449eb62ef09defc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114249cf9f4815bde5c342a5826c6841') in 0.019397 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Game Make/RunGame/Sound/Digital Liquid Click.wav
+  artifactKey: Guid(170dedf21b9565349872a795784cf42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Digital Liquid Click.wav using Guid(170dedf21b9565349872a795784cf42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43534a75a12b77d306eeb466dff85ad') in 0.014591 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Game Make/RunGame/Sound/War Trumpet Call.wav
+  artifactKey: Guid(b9e95869585adef418d7532d0eda1f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/War Trumpet Call.wav using Guid(b9e95869585adef418d7532d0eda1f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6556a91f339a5eedb9405ec9039fcd9') in 0.015874 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Game Make/RunGame/Sound/Gameplay Achievement.wav
+  artifactKey: Guid(b0277c32cd1c27a48857b18cdfbbc21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Gameplay Achievement.wav using Guid(b0277c32cd1c27a48857b18cdfbbc21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3430477f363f28bdfc9f63d3beb75927') in 0.020652 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Game Make/RunGame/Sound/Deep Metallic Button.wav
+  artifactKey: Guid(d3a85c5faa20e8e4ba6c12dfb2c7c8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Deep Metallic Button.wav using Guid(d3a85c5faa20e8e4ba6c12dfb2c7c8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eeb2a44204f6240c44c9871490f59cf') in 0.015972 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Game Make/RunGame/Sound/Magic Spell.wav
+  artifactKey: Guid(bd6ab72952b8dc148aab704517741bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Magic Spell.wav using Guid(bd6ab72952b8dc148aab704517741bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4349923b4b5395392206e4575b68152') in 0.015619 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Game Make/RunGame/Sound/Game Select Click.wav
+  artifactKey: Guid(d17110bb9c588c14897c8106c0528ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Game Select Click.wav using Guid(d17110bb9c588c14897c8106c0528ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85873398067e7022c98384088af0a6dd') in 0.017513 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Game Make/RunGame/Sound/Fast Rattle Alert.wav
+  artifactKey: Guid(eb0c6ddcd6a6270489435b0446fe9836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Fast Rattle Alert.wav using Guid(eb0c6ddcd6a6270489435b0446fe9836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28afbd11390485297288df016c9586cf') in 0.015064 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Game Make/RunGame/Sound/Level Up.wav
+  artifactKey: Guid(34d78a118029aed4783ed0bbb7087555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Level Up.wav using Guid(34d78a118029aed4783ed0bbb7087555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a56e6672ed727b4e38536ba72418a2') in 0.017362 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Game Make/RunGame/Sound/Ding.wav
+  artifactKey: Guid(949566f7715d74645a3bec8c67ef2c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Ding.wav using Guid(949566f7715d74645a3bec8c67ef2c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec9c77a01444ac5e3af277e5840119f') in 0.014211 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Game Make/RunGame/Sound/Uplifting Victory.wav
+  artifactKey: Guid(a48d65b3388ca0a4d805cdf40231459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Uplifting Victory.wav using Guid(a48d65b3388ca0a4d805cdf40231459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7649fcb2eb112b2df459936792416e2c') in 0.015904 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Game Make/RunGame/Sound/Monster Spell.wav
+  artifactKey: Guid(d0476d4c32725ee4cb3ee7a190a5ae7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Monster Spell.wav using Guid(d0476d4c32725ee4cb3ee7a190a5ae7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0308bc720f33e0cbe8beeeec04a806c') in 0.016104 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game Make/RunGame/Sound/Bright Pop Button.wav
+  artifactKey: Guid(f96dd7b18d5d2424691c71b7dc1912d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Bright Pop Button.wav using Guid(f96dd7b18d5d2424691c71b7dc1912d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8afb005d867ae339cddbce4f4608d236') in 0.013948 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Game Make/RunGame/Sound/Woosh.wav
+  artifactKey: Guid(7c419c581af8f3641812fbd3e5844749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Woosh.wav using Guid(7c419c581af8f3641812fbd3e5844749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf262c37a0c9d743ce84e63dbd748a4') in 0.015344 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Game Make/RunGame/Sound/Sci-Fi Smooth Transition.wav
+  artifactKey: Guid(75b8a2ff1f7e0ef40a1d413d1255288c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Sci-Fi Smooth Transition.wav using Guid(75b8a2ff1f7e0ef40a1d413d1255288c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df4ef608f8a19f42f51520e7a2368ec') in 0.014845 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Game Make/RunGame/Sound/Short Positive FX.wav
+  artifactKey: Guid(cd29bd83451633040a2a90afce524e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Short Positive FX.wav using Guid(cd29bd83451633040a2a90afce524e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a192f629c45206fbf40f686ec8b772bb') in 0.014562 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Game Make/RunGame/Sound/Celesta Dream.wav
+  artifactKey: Guid(9df519096342c984eaa33017fddc8447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Celesta Dream.wav using Guid(9df519096342c984eaa33017fddc8447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad13536c223898cb0e1a45df636888d0') in 0.014911 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Game Make/RunGame/Sound/Smooth Error Click.wav
+  artifactKey: Guid(4db5276715a0fe644bca4c4545552748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Smooth Error Click.wav using Guid(4db5276715a0fe644bca4c4545552748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6357de933ac5f1e8ab9b7a98658b7a9f') in 0.015999 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Game Make/RunGame/Sound/Positive Bright Effect.wav
+  artifactKey: Guid(fbe1700453b120f48ad3f4b96c13cd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Positive Bright Effect.wav using Guid(fbe1700453b120f48ad3f4b96c13cd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268b1b649344f04035d212a7b61d9e35') in 0.017229 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Game Make/RunGame/Sound/Brilliant Transition.wav
+  artifactKey: Guid(17b0ec460d145154d8aa75beef7ceab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Brilliant Transition.wav using Guid(17b0ec460d145154d8aa75beef7ceab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30e05403a76ba0737f961e062e2a7ca') in 0.016636 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Game Make/RunGame/Sound/Digital Game Over.wav
+  artifactKey: Guid(6534847ceb86b894491dc0afcb171586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Digital Game Over.wav using Guid(6534847ceb86b894491dc0afcb171586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2462e8622c79c68b47fab3e462a781b9') in 0.015539 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Game Make/RunGame/Sound/Symphonic Orchestra Hit.wav
+  artifactKey: Guid(ae4993584d95feb4a9c31e475b61299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Symphonic Orchestra Hit.wav using Guid(ae4993584d95feb4a9c31e475b61299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35ad325d5cde27990fa3faac1fa8bf2') in 0.015257 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Game Make/RunGame/Sound/Retro Game Success.wav
+  artifactKey: Guid(4f96c828937ad6343879c37675583925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Retro Game Success.wav using Guid(4f96c828937ad6343879c37675583925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02264f853f6bcb8f9be3ff10e83cec9') in 0.014061 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Game Make/RunGame/Sound/Item Collect.wav
+  artifactKey: Guid(a231cd57e95a6d94082d8e5ef8b4ab09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Item Collect.wav using Guid(a231cd57e95a6d94082d8e5ef8b4ab09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc47ca245364310b7d271ab9c184332') in 0.014415 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Game Make/RunGame/Sound/Coin Collect.wav
+  artifactKey: Guid(97c820bcc22690040809d698f38495b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Coin Collect.wav using Guid(97c820bcc22690040809d698f38495b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7852f0d18975b1f39a1a35f8bbe200fb') in 0.019473 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Game Make/RunGame/Sound/Gameplay Sparkle.wav
+  artifactKey: Guid(a0b0f1d58a57d4641af4c317efeb7851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Gameplay Sparkle.wav using Guid(a0b0f1d58a57d4641af4c317efeb7851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d957a0825bef164ce6cbab9a11c4655') in 0.020734 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Game Make/RunGame/Sound/Trailer Hit.wav
+  artifactKey: Guid(3af962df98565734ca250e2dcffdcd0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Trailer Hit.wav using Guid(3af962df98565734ca250e2dcffdcd0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c33f527dcb8bce2d8fa1df26ea9e34d') in 0.015340 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Game Make/RunGame/Sound/Money.wav
+  artifactKey: Guid(59abadb4643cdc240ad01a91e8416d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Money.wav using Guid(59abadb4643cdc240ad01a91e8416d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aab35212144518c1184f90603ac075f') in 0.015480 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game Make/RunGame/Sound/Super Power Achieved.wav
+  artifactKey: Guid(22dd24deb6e202a4297fd45b79956bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Super Power Achieved.wav using Guid(22dd24deb6e202a4297fd45b79956bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2387bacb5a9b94585bf6b57dcf9c4609') in 0.017231 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Game Make/RunGame/Sound/Positive Notification.wav
+  artifactKey: Guid(942dae1dc6b51ac49a6df0b0df3b36c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Positive Notification.wav using Guid(942dae1dc6b51ac49a6df0b0df3b36c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e27da13fff931dd8f71a3ca89be896e') in 0.015957 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Game Make/RunGame/Sound/Level Up 2.wav
+  artifactKey: Guid(fd87665f54c6cdc409e3a0dc7c153b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Level Up 2.wav using Guid(fd87665f54c6cdc409e3a0dc7c153b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159f341a7e87e052bd4b187141411b87') in 0.014321 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Game Make/RunGame/Sound/Game Win.wav
+  artifactKey: Guid(4a8bb0d95b172ab4b9c8960bb1775e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Game Win.wav using Guid(4a8bb0d95b172ab4b9c8960bb1775e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9244a237cb7645536499ae3d21e940a2') in 0.014824 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Game Make/RunGame/Sound/Successful Game Alert.wav
+  artifactKey: Guid(b950f5b59c4baf145b21768c73fb3762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Successful Game Alert.wav using Guid(b950f5b59c4baf145b21768c73fb3762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2543592e4a9e711251af286209da9f89') in 0.015154 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Game Make/RunGame/Sound/Fantasy.wav
+  artifactKey: Guid(6f7ad050be663f5439f05a1e456e3fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Fantasy.wav using Guid(6f7ad050be663f5439f05a1e456e3fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4734e4238eeb2a658517d829cab179f2') in 0.017998 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Game Make/RunGame/Sound/Long Alert.wav
+  artifactKey: Guid(b2ed3ca66cd9f8445a4f299cdf324a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/Sound/Long Alert.wav using Guid(b2ed3ca66cd9f8445a4f299cdf324a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f019b0e5b77bcbfd00ab760fa7349d9') in 0.035328 seconds 
+Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

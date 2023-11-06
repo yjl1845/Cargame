@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -7,7 +6,7 @@ using UnityEngine.UI;
 
 public class ButtonManager : MonoBehaviour
 {
-
+    [SerializeField] GameObject optionPanel;
     [SerializeField] Button buttonPrefab;
     [SerializeField] List<Button> buttons;
     [SerializeField] int createCount = 4;
@@ -42,7 +41,7 @@ public class ButtonManager : MonoBehaviour
     {
         buttons[0].onClick.AddListener(StartGame);
         buttons[1].onClick.AddListener(B);
-        buttons[2].onClick.AddListener(C);
+        buttons[2].onClick.AddListener(Option);
         buttons[3].onClick.AddListener(D);
     }
 
@@ -52,12 +51,12 @@ public class ButtonManager : MonoBehaviour
  
     }
 
-    public void B()
+    public void Option()
     {
-        Debug.Log("B");
+       optionPanel.SetActive(true);
     }
 
-    public void C()
+    public void B()
     {
         Debug.Log("C");
     }

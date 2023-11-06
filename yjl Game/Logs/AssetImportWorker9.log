@@ -15,7 +15,7 @@ C:/Users/Administrator/Desktop/Cargame/yjl Game
 -logFile
 Logs/AssetImportWorker9.log
 -srvPort
-49810
+49789
 Successfully changed project path to: C:/Users/Administrator/Desktop/Cargame/yjl Game
 C:/Users/Administrator/Desktop/Cargame/yjl Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/Administrator/Desktop/Cargame/yjl Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19988] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 428245968 [EditorId] 428245968 [Version] 1048832 [Id] WindowsEditor(7,I-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19472] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 839724805 [EditorId] 839724805 [Version] 1048832 [Id] WindowsEditor(7,I-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [19988] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 428245968 [EditorId] 428245968 [Version] 1048832 [Id] WindowsEditor(7,I-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19472] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 839724805 [EditorId] 839724805 [Version] 1048832 [Id] WindowsEditor(7,I-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 135.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 135.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -68,38 +68,38 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003467 seconds.
+Registered in 0.003615 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 162 ms
-Refreshing native plugins compatible for Editor in 112.66 ms, found 3 plugins.
+Android Extension - Scanning For ADB Devices 164 ms
+Refreshing native plugins compatible for Editor in 120.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.753 seconds
+- Completed reload, in  0.765 seconds
 Domain Reload Profiling:
-	ReloadAssembly (754ms)
-		BeginReloadAssembly (73ms)
+	ReloadAssembly (766ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (607ms)
-			LoadAssemblies (73ms)
+		EndReloadAssembly (611ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (93ms)
+			SetupTypeCache (91ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (455ms)
+			SetupLoadedEditorAssemblies (463ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (236ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (113ms)
+				RefreshPlugins (121ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (70ms)
 				ProcessInitializeOnLoadMethodAttributes (35ms)
@@ -109,40 +109,40 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004967 seconds.
+Registered in 0.004792 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 114.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 114.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.744 seconds
+- Completed reload, in  1.769 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1744ms)
-		BeginReloadAssembly (110ms)
+	ReloadAssembly (1770ms)
+		BeginReloadAssembly (109ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1547ms)
-			LoadAssemblies (101ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1579ms)
+			LoadAssemblies (106ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (300ms)
+			SetupTypeCache (294ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (1068ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (1076ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (115ms)
 				BeforeProcessingInitializeOnLoad (130ms)
-				ProcessInitializeOnLoadAttributes (655ms)
-				ProcessInitializeOnLoadMethodAttributes (148ms)
+				ProcessInitializeOnLoadAttributes (660ms)
+				ProcessInitializeOnLoadMethodAttributes (151ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -151,12 +151,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6598 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (1.0 MB). Loaded Objects now: 7068.
-Memory consumption went from 283.4 MB to 282.5 MB.
-Total: 6.711900 ms (FindLiveObjects: 0.606100 ms CreateObjectMapping: 0.756600 ms MarkObjects: 4.999000 ms  DeleteObjects: 0.349300 ms)
+Unloading 6600 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (1.0 MB). Loaded Objects now: 7070.
+Memory consumption went from 283.5 MB to 282.5 MB.
+Total: 7.081600 ms (FindLiveObjects: 0.549200 ms CreateObjectMapping: 0.598100 ms MarkObjects: 5.527200 ms  DeleteObjects: 0.406300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,6 +170,102 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2024.961541 seconds.
+  path: Assets/Game Make/RunGame/simple UI & icons/box/box_coin2.png
+  artifactKey: Guid(70783f222b0c71440a082ff647835516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/simple UI & icons/box/box_coin2.png using Guid(70783f222b0c71440a082ff647835516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb09aa64ef488f1a210cd67f9d184c3') in 0.085476 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game Make/RunGame/simple UI & icons/box/box_select1.png
+  artifactKey: Guid(333577eebe3cf2649a6c7f3d299dceba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/simple UI & icons/box/box_select1.png using Guid(333577eebe3cf2649a6c7f3d299dceba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26bdc8aea4066b83e7f8793e014aa039') in 0.073828 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Game Make/RunGame/simple UI & icons/box/box_option3.png
+  artifactKey: Guid(2b0d4e7bf344774459d025e4c723ba78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/simple UI & icons/box/box_option3.png using Guid(2b0d4e7bf344774459d025e4c723ba78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430e983266ba3276cb774ed99e6f35c6') in 0.058267 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Game Make/RunGame/simple UI & icons/box/box_option2.png
+  artifactKey: Guid(b9d57a4161b87ac43844cd039a58475f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/simple UI & icons/box/box_option2.png using Guid(b9d57a4161b87ac43844cd039a58475f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb905f897a5993833dc70dfe1f24da6c') in 0.044844 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Game Make/RunGame/simple UI & icons/box/box_login2.png
+  artifactKey: Guid(5b321d4760f872f4aa9d4c5d856394c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/simple UI & icons/box/box_login2.png using Guid(5b321d4760f872f4aa9d4c5d856394c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b3e525601ac1761c498a9af358987f') in 0.045175 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game Make/RunGame/simple UI & icons/box/box_event3.png
+  artifactKey: Guid(e832f8a4f31186448b2c250268b36742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/simple UI & icons/box/box_event3.png using Guid(e832f8a4f31186448b2c250268b36742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecde9ea48219658807cd89ea5721d3b6') in 0.021268 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Game Make/RunGame/simple UI & icons/box/box_coin3.png
+  artifactKey: Guid(7ca26ee7f8f599742972114fc284ac21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/simple UI & icons/box/box_coin3.png using Guid(7ca26ee7f8f599742972114fc284ac21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7970011b3adf2f7d16bbc6f73531df9c') in 0.019565 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Game Make/RunGame/simple UI & icons/box/box_exp2.png
+  artifactKey: Guid(b44c79964f3be0747ae2b2a8a4fc8798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/simple UI & icons/box/box_exp2.png using Guid(b44c79964f3be0747ae2b2a8a4fc8798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bdbf694ff2ff360b154d087ffdd90cc') in 0.019109 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Game Make/RunGame/simple UI & icons/box/circle_3.png
+  artifactKey: Guid(bfe8ff4e5c151374f8f0974f0cde948f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/simple UI & icons/box/circle_3.png using Guid(bfe8ff4e5c151374f8f0974f0cde948f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435cd42974137806eb873397652721bf') in 0.016852 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game Make/RunGame/simple UI & icons/box/box_exp3.png
+  artifactKey: Guid(b57930d302719f64b80f87a38be0539e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/simple UI & icons/box/box_exp3.png using Guid(b57930d302719f64b80f87a38be0539e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb63eb1959eb2b3b4b5605550e68a43') in 0.018290 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Game Make/RunGame/simple UI & icons/box/circle_2.png
+  artifactKey: Guid(90523fd09249fed4291cb5227e137ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/simple UI & icons/box/circle_2.png using Guid(90523fd09249fed4291cb5227e137ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19260d8d01e7f67bd4c52948de0e3ca') in 0.024595 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Game Make/RunGame/simple UI & icons/box/box_map name.png
+  artifactKey: Guid(9612150cbb33ebf4abaafcb0066d0c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Make/RunGame/simple UI & icons/box/box_map name.png using Guid(9612150cbb33ebf4abaafcb0066d0c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b32b4a65ae8510dedc3894345ee601') in 0.022072 seconds 
+Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
