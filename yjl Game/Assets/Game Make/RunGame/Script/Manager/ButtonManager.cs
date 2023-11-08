@@ -7,11 +7,13 @@ using UnityEngine.UI;
 public class ButtonManager : MonoBehaviour
 {
     [SerializeField] GameObject optionPanel;
+
     [SerializeField] Button buttonPrefab;
-    [SerializeField] List<Button> buttons;
     [SerializeField] int createCount = 4;
-    [SerializeField] Transform createPosition;
+
     [SerializeField] string [] titleName;
+    [SerializeField] List<Button> buttons;
+    [SerializeField] Transform createPosition;
 
     [SerializeField] UnityEvent callBack;
 
@@ -42,7 +44,7 @@ public class ButtonManager : MonoBehaviour
         buttons[0].onClick.AddListener(StartGame);
         buttons[1].onClick.AddListener(B);
         buttons[2].onClick.AddListener(Option);
-        buttons[3].onClick.AddListener(D);
+        buttons[3].onClick.AddListener(Quit);
     }
 
     public void StartGame()
@@ -53,17 +55,21 @@ public class ButtonManager : MonoBehaviour
 
     public void Option()
     {
-       optionPanel.SetActive(true);
+        optionPanel.SetActive(true);
     }
 
     public void B()
     {
-        Debug.Log("C");
+        Debug.Log("B");
     }
 
-    public void D()
+    public void Quit()
     {
-        Debug.Log("D");
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif
     }
 
 

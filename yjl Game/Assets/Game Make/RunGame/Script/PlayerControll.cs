@@ -16,6 +16,12 @@ public enum RoadLine
 
 public class PlayerControll : MonoBehaviour
 {
+    [SerializeField] CharacterController CharacterController;
+    [SerializeField] Vector3 direction;
+    [SerializeField] float JumpPower = 20f;
+
+    [SerializeField] GameObject Gameoverscene;
+
     [SerializeField] float positionX = 3.5f;
     [SerializeField] RoadLine roadLine;
 
@@ -23,9 +29,13 @@ public class PlayerControll : MonoBehaviour
     [SerializeField] Animator animator;
     [SerializeField] UnityEvent playerevent;
 
+    WaitForSeconds waitForSeconds = new WaitForSeconds(5f);
+
     private void Start()
     {
         roadLine = RoadLine.MIDDLE;
+
+        direction = transform.position;
     }
 
     // Update is called once per frame
@@ -36,6 +46,8 @@ public class PlayerControll : MonoBehaviour
 
         // 캐릭터 이동 상태
         Status();
+
+        Jump();
     }
 
     public void Move()
@@ -73,18 +85,33 @@ public class PlayerControll : MonoBehaviour
         }
     }
 
+    public void Jump()
+    {
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            if (transform.position.y <= 0.1f)
+            {
+                direction.y = 20;
+                transform.position = new Vector3(transform.position.x,direction.y,0);
+            }
+        }
+        
+        direction.y -= 50f * Time.deltaTime;
+        transform.position = direction;
+    }
+
     public void Status()
     {
-        switch(roadLine)
+        switch (roadLine)
         {
             case RoadLine.LEFT:
-                transform.position = new(-positionX, 0, 0);
+                transform.position = new Vector3(-positionX, transform.position.y, 0);
                 break;
             case RoadLine.MIDDLE:
-                transform.position = Vector3.zero;
+                transform.position = new Vector3(0, transform.position.y, 0);
                 break;
             case RoadLine.RIGHT:
-                transform.position = new(+positionX, 0, 0);
+                transform.position = new Vector3(+positionX, transform.position.y, 0);
                 break;
         }
     }
@@ -109,6 +136,11 @@ public class PlayerControll : MonoBehaviour
     {
         playerevent.Invoke();
         animator.Play("Death");
+    }
+
+    public void OnGameOverUI()
+    {
+        GameManager.instance.GameoverPanel();
     }
 
     private void WaitForSecondsRealtime(float v)

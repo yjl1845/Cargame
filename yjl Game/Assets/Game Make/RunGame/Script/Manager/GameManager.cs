@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : Singleton<GameManager>
 {
@@ -13,6 +14,8 @@ public class GameManager : Singleton<GameManager>
     [SerializeField] Animator playerAnimator;
     [SerializeField] Animator cameraAnimator;
 
+    WaitForSecondsRealtime waitForSecondsRealtime = new WaitForSecondsRealtime(5f);
+    [SerializeField] GameObject gameOverPanel;
 
     // Start is called before the first frame update
     void Start()
@@ -45,5 +48,16 @@ public class GameManager : Singleton<GameManager>
 
         playerAnimator.SetLayerWeight(1, 0);
         Time.timeScale = 1.0f;
+    }
+
+    public void retry()
+    {
+        // SceneManager.GetActiveScene().name은 현재 씬의 이름을 의미한다.
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void GameoverPanel()
+    {
+        gameOverPanel.SetActive(true);
     }
 }
